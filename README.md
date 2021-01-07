@@ -14,6 +14,12 @@
   <img src="https://img-blog.csdnimg.cn/20200218175441666.png" height="50%" width="50%" />
 </div>
 
+[[Python人工智能] 九.gensim词向量Word2Vec安装及《庆余年》中文短文本相似度计算](https://blog.csdn.net/Eastmount/article/details/103647573)  <br />
+
+<div align="center">
+  <img src="https://img-blog.csdnimg.cn/20191221211434666.png" height="50%" width="50%" />
+</div>
+
 原文查阅：
 - [[Python人工智能] 一.TensorFlow2.0环境搭建及神经网络入门](https://blog.csdn.net/Eastmount/article/details/103282042) <br />
 - [[Python人工智能] 二.TensorFlow基础及一元直线预测案例](https://blog.csdn.net/Eastmount/article/details/103322331) <br />
