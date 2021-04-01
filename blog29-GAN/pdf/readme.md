@@ -1,0 +1,14 @@
+参考论文：
+- https://arxiv.org/abs/1406.2661
+- https://github.com/hindupuravinash/the-gan-zoo
+- https://arxiv.org/pdf/1701.00160.pdf
+- https://link.springer.com/chapter/10.1007/978-3-319-10593-2_13
+- http://cn.arxiv.org/pdf/1711.09020.pdf
+- https://github.com/jacobgil/keras-dcgan/blob/master/dcgan.py
+- https://arxiv.org/abs/1511.06434
+- https://arxiv.org/pdf/1511.06434.pdf
+- https://arxiv.org/abs/1606.03657
+- 《Energy-based Generative Adversarial Network》Junbo Zhao, arXiv:1609.03126v2
+- https://arxiv.org/pdf/1705.07215.pdf
+- https://arxiv.org/pdf/1706.08500.pdf
+- https://arxiv.org/pdf/1711.10337.pdf
