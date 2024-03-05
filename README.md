@@ -49,7 +49,20 @@
 - [[Python人工智能] 二十六.基于BiLSTM-CRF的医学命名实体识别研究（上）数据预处理](https://blog.csdn.net/eastmount/article/details/111526240) 
 - [[Python人工智能] 二十七.基于BiLSTM-CRF的医学命名实体识别研究（下）模型构建](https://blog.csdn.net/Eastmount/article/details/112249976) <br />
 - [[Python人工智能] 二十八.Keras深度学习中文文本分类万字总结（CNN、TextCNN、LSTM、BiLSTM、BiLSTM+Attention）](https://blog.csdn.net/Eastmount/article/details/114809729)  <br />
-
+- [[Python人工智能] 二十九.什么是生成对抗网络GAN？基础原理和代码普及(1)](https://blog.csdn.net/Eastmount/article/details/115256149)
+- [[Python人工智能] 三十.Keras深度学习构建CNN识别阿拉伯手写文字图像](https://blog.csdn.net/Eastmount/article/details/118554510)
+- [[Python人工智能] 三十一.Keras实现BiLSTM微博情感分类和LDA主题挖掘分析](https://blog.csdn.net/Eastmount/article/details/120375588)
+- [[Python人工智能] 三十二.Bert模型 (1)Keras-bert基本用法及预训练模型](https://blog.csdn.net/Eastmount/article/details/121493789)
+- [[Python人工智能] 三十三.Bert模型 (2)keras-bert库构建Bert模型实现文本分类](https://blog.csdn.net/Eastmount/article/details/121506655)
+- [[Python人工智能] 三十四.Bert模型 (3)keras-bert库构建Bert模型实现微博情感分析](https://blog.csdn.net/Eastmount/article/details/121528348)
+- [[Python人工智能] 三十五.基于Transformer的商品评论情感分析 (1)机器学习和深度学习的Baseline模型实现](https://blog.csdn.net/Eastmount/article/details/124579966)
+- [[Python人工智能] 三十六.基于Transformer的商品评论情感分析 (2)keras构建多头自注意力（Transformer）模型](https://blog.csdn.net/Eastmount/article/details/124587047)
+- [Python人工智能] 三十七.基于Transformer的商品评论情感分析 (3)keras构建Transformer+BiLSTM模型
+- [[Python人工智能] 三十八.Keras构建无监督学习Autoencoder模型及MNIST聚类可视化详解](https://blog.csdn.net/Eastmount/article/details/126476787)
+- [[Python人工智能] 三十九.VS Code配置Python编程和Keras环境及手写数字识别](https://blog.csdn.net/Eastmount/article/details/128759182)
+- [[Python人工智能] 四十.命名实体识别 (1)基于BiLSTM-CRF的威胁情报实体识别万字详解](https://blog.csdn.net/Eastmount/article/details/134551902)
+- [[Python人工智能] 四十一.命名实体识别 (2)基于BiGRU-CRF的中文实体识别万字详解](https://blog.csdn.net/Eastmount/article/details/136122018)
+- [Python人工智能] 四十二.命名实体识别 (3)基于Bert+BiLSTM-CRF的中文实体识别万字详解（异常解决中）
 
 
 
