@@ -1,0 +1,15 @@
+Dark Caracal is threat group that has been attributed to the Lebanese General Directorate of General Security (GDGS) and has operated since at least 2012. ###
+Dark Caracal's version of Bandook communicates with their server over a TCP port using HTTP payloads Base64 encoded and suffixed with the string "&&&".###
+Dark Caracal's version of Bandook adds a registry key to HKEY_USERS\Software\Microsoft\Windows\CurrentVersion\Run for persistence.###
+Dark Caracal has used macros in Word documents that would download a second stage if executed.###
+Dark Caracal collected complete contents of the 'Pictures' folder from compromised Windows systems.###
+Dark Caracal leveraged a watering hole to serve up malicious code.###
+Dark Caracal collected file listings of all default Windows directories.###
+Dark Caracal has obfuscated strings in Bandook by base64 encoding, and then encrypting them.###
+Dark Caracal has used UPX to pack Bandook.###
+Dark Caracal spearphished victims via Facebook and Whatsapp.###
+Dark Caracal took screenshots using their Windows malware.###
+Dark Caracal leveraged a compiled HTML file that contained a command to download and run an executable.###
+Dark Caracal makes their malware look like Flash Player, Office, or PDF documents in order to entice a user to click on it.###
+Dark Caracal distributes Pallas via trojanized applications hosted on watering hole websites.###
+Dark Caracal controls implants using standard HTTP communication.###

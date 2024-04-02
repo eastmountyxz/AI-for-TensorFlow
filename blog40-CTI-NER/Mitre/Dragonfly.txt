@@ -1,0 +1,5 @@
+Dragonfly is a cyber espionage group that has been active since at least 2011. They initially targeted defense and aviation companies but shifted to focus to include the energy sector in early 2013. They have also targeted companies related to industrial control systems. ###
+A similar group emerged in 2015 and was identified by Symantec as Dragonfly 2.0. There is debate over the extent of the overlap between Dragonfly and Dragonfly 2.0, but there is sufficient evidence to lead to these being tracked as two separate groups. ###
+Dragonfly has has compromised targets via strategic web compromise (SWC) utilizing a custom exploit kit.###
+Dragonfly has used spearphising campaigns to gain access to victims.###
+Dragonfly has placed trojanized installers on legitimate vendor app stores.###

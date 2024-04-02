@@ -1,0 +1,59 @@
+Chimera is a suspected China-based threat group that has been active since at least 2018 targeting the semiconductor industry in Taiwan as well as data from the airline industry.###
+Chimera has has used net user /dom and net user Administrator to enumerate domain accounts including administrator accounts.###
+Chimera has used net user for account discovery.###
+Chimera has used Cobalt Strike to encapsulate C2 in DNS traffic.###
+Chimera has used HTTPS for C2 communications.###
+Chimera has used gzip for Linux OS and a modified RAR software to archive data on Windows hosts.###
+Chimera has used custom DLLs for continuous retrieval of data from memory.###
+Chimera has used type \\c$\Users\\Favorites\Links\Bookmarks bar\Imported From IE*citrix* for bookmark discovery.###
+Chimera has used credential stuffing against victim's remote services to obtain valid accounts.###
+Chimera has used multiple password spraying attacks against victim's remote services to obtain valid user and administrator accounts.###
+Chimera has used PowerShell scripts to execute malicious payloads and the DSInternals PowerShell module to make use of Active Directory features.###
+Chimera has used the Windows Command Shell and batch scripts for execution on compromised hosts.###
+Chimera has collected documents from the victim's SharePoint.###
+Chimera has collected data of interest from network shares.###
+Chimera has staged stolen data on designated servers in the target environment.###
+Chimera has staged stolen data locally on compromised hosts.###
+Chimera has nltest /domain_trusts to identify domain trust relationships.###
+Chimera has harvested data from remote mailboxes including through execution of \\c$\Users\\AppData\Local\Microsoft\Outlook*.ost.###
+Chimera has harvested data from victim's e-mail including through execution of wmic /node: process call create "cmd /c copy c:\Users\\\backup.pst c:\windows\temp\backup.pst" copy "i:\\\My Documents\.pst"copy.###
+Chimera has used Cobalt Strike C2 beacons for data exfiltration.###
+Chimera has exfiltrated stolen data to OneDrive accounts.###
+Chimera has used legitimate credentials to login to an external VPN, Citrix, SSH, and other remote services.###
+Chimera has utilized multiple commands to identify data of interest in file and directory listings.###
+Chimera has collected credentials for the target organization from previous breaches for use in brute force attacks.###
+Chimera has used side loading to place malicious DLLs in memory.###
+Chimera has used a Windows version of the Linux touch command to modify the date and time stamp on DLLs.###
+Chimera has cleared event logs on compromised hosts.###
+Chimera has performed file deletion to evade detection.###
+Chimera has remotely copied tools and malware onto targeted systems.###
+Chimera has copied tools between compromised hosts using SMB.###
+Chimera has renamed malware to GoogleUpdate.exe and WinRAR to jucheck.exe, RecordedTV.ms, teredo.tmp, update.exe, and msadcs1.exe.###
+Chimera's malware has altered the NTLM authentication program on domain controllers to allow Chimera to login without a valid credential.###
+Chimera has used direct Windows system calls by leveraging Dumpert.###
+Chimera has used the get -b  -e  -p command for network scanning as well as a custom Python tool  packed into a Windows executable named Get.exe to scan IP ranges for HTTP.###
+Chimera has used net share and net view to identify network shares of interest.###
+Chimera has encoded PowerShell commands.###
+Chimera has gathered the SYSTEM registry and ntds.dit files from target systems. Chimera specifically has used the NtdsAudit tool to dump the password hashes of domain users via cmsadcs.exe "NTDS.dit" -s "SYSTEM" -p RecordedTV_pdmp.txt --users-csv RecordedTV_users.csv and used ntdsutil to copy the Active Directory database.###
+Chimera has used the NtdsAudit utility to collect information related to accounts and passwords.###
+Chimera has used net localgroup administrators to identify  accounts with local administrative rights.###
+Chimera has used tasklist to enumerate processes.###
+Chimera has encapsulated Cobalt Strike's C2 protocol in DNS and HTTPS.###
+Chimera has queried Registry keys using reg query \\HKU\\SOFTWARE\Microsoft\Terminal Server Client\Servers and reg query \\HKU\\Software\Microsoft\Windows\CurrentVersion\Internet Settings.###
+Chimera has used RDP to access targeted systems.###
+Chimera has used Windows admin shares to move laterally.###
+Chimera has used WinRM for lateral movement.###
+Chimera has utilized various scans and queries to find domain controllers and remote services in the target environment.###
+Chimera has used scheduled tasks to invoke Cobalt Strike including through batch script schtasks /create /ru "SYSTEM" /tn "update" /tr "cmd /c c:\windows\temp\update.bat" /sc once /f /st and to maintain persistence.###
+Chimera has used fsutil, fsinfo drives systeminfo, and vssadmin list shadows for sytesm information including shadow volumes and drive information.###
+Chimera has used ipconfig, Ping, and tracert to enumerate the IP address and network environment and settings of the local host.###
+Chimera has used netstat -ano | findstr EST to discover network connections.###
+Chimera has used the quser command to show currently logged on users.###
+Chimera has used net start and net use for system service discovery.###
+Chimera has used PsExec to deploy beacons on compromised systems.###
+Chimera has used time /t and net time \ip/hostname for system time discovery.###
+Chimera has registered alternate phone numbers for compromised users to intercept 2FA codes sent via SMS.###
+Chimera has dumped password hashes for use in pass the hash authentication attacks.###
+Chimera has used a valid account to maintain persistence via scheduled task.###
+Chimera has used compromised domain accounts to gain access to the target environment.###
+Chimera has used WMIC to execute remote commands.###

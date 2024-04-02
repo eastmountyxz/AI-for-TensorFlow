@@ -1,0 +1,26 @@
+Darkhotel is a suspected South Korean threat group that has targeted victims primarily in East Asia since at least 2004. The group's name is based on cyber espionage operations conducted via hotel Internet networks against traveling executives and other select guests. Darkhotel has also conducted spearphishing campaigns and infected victims through peer-to-peer and file sharing networks.###
+Darkhotel has dropped an mspaint.lnk shortcut to disk which launches a shell script that downloads and executes a file.###
+Darkhotel has been known to establish persistence by adding programs to the Run Registry key.###
+Darkhotel has dropped an mspaint.lnk shortcut to disk which launches a shell script that downloads and executes a file.###
+Darkhotel has decrypted strings and imports using RC4 during execution.###
+Darkhotel used embedded iframes on hotel login portals to redirect selected victims to download malware.###
+Darkhotel has used AES-256 and 3DES for C2 communications.###
+Darkhotel has exploited Adobe Flash vulnerability CVE-2015-8651 for execution.###
+Darkhotel has used malware that searched for files with specific patterns.###
+Darkhotel has used first-stage payloads that download additional malware from C2 servers.###
+Darkhotel has used a keylogger.###
+Darkhotel has used malware that is disguised as a Secure Shell (SSH) tool.###
+Darkhotel has obfuscated code using RC4, XOR, and RSA.###
+Darkhotel has sent spearphishing emails with malicious RAR and .LNK attachments.###
+Darkhotel malware can collect a list of running processes on a system.###
+Darkhotel's selective infector modifies executables stored on removable media as a method of spreading across computers.###
+Darkhotel has searched for anti-malware strings and anti-virus processes running on the system.###
+Darkhotel has used code-signing certificates on its malware that are either forged due to weak keys or stolen. Darkhotel has also stolen certificates and signed backdoors and downloaders with them.###
+Darkhotel has collected the hostname, OS version, service pack version, and the processor architecture from the victim’s machine.###
+Darkhotel has collected the IP address and network adapter information from the victim’s machine.###
+Darkhotel malware can obtain system time from a compromised host.###
+Darkhotel used a virus that propagates by infecting executables stored on shared drives.###
+Darkhotel has sent spearphishing emails in an attempt to lure users into clicking on a malicious attachments.###
+Darkhotel malware has employed just-in-time decryption of strings to evade sandbox detection.###
+Darkhotel malware has used a series of checks to determine if it's being analyzed; checks include the length of executable names, if a filename ends with .Md5.exe, and if the program is executed from the root of the C:\ drive, as well as checks for sandbox-related libraries.###
+Darkhotel has used malware that repeatedly checks the mouse cursor position to determine if a real user is on the system.###

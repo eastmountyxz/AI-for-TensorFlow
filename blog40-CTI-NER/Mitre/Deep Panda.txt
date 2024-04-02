@@ -1,0 +1,11 @@
+Deep Panda is a suspected Chinese threat group known to target many industries, including government, defense, financial, and telecommunications.  The intrusion into healthcare company Anthem has been attributed to Deep Panda.  This group is also known as Shell Crew, WebMasters, KungFu Kittens, and PinkPanther.  Deep Panda also appears to be known as Black Vine based on the attribution of both group names to the Anthem intrusion.  Some analysts track Deep Panda and APT19 as the same group, but it is unclear from open source information if the groups are the same. ###
+Deep Panda has used PowerShell scripts to download and execute programs in memory, without writing to disk.###
+Deep Panda has used the sticky-keys technique to bypass the RDP login screen on remote systems during intrusions.###
+Deep Panda has used -w hidden to conceal PowerShell windows by setting the WindowStyle parameter to hidden. ###
+Deep Panda has updated and modified its malware, resulting in different hash values that evade detection.###
+Deep Panda uses the Microsoft Tasklist utility to list processes running on systems.###
+Deep Panda uses net.exe to connect to network shares using net use commands with compromised credentials.###
+Deep Panda has used ping to identify other machines of interest.###
+Deep Panda uses Web shells on publicly accessible Web servers to access victim networks.###
+Deep Panda has used regsvr32.exe to execute a server variant of Derusbi in victim networks.###
+The Deep Panda group is known to utilize WMI for lateral movement.###

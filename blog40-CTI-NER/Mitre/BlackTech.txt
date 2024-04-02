@@ -1,0 +1,9 @@
+BlackTech is a cyber espionage group operating against targets in East Asia, particularly Taiwan, and occasionally, Japan and Hong Kong.###
+BlackTech has exploited a buffer overflow vulnerability in Microsoft Internet Information Services (IIS) 6.0, CVE-2017-7269, in order to establish a new HTTP or command and control (C2) server.###
+BlackTech has exploited multiple vulnerabilities for execution, including Microsoft Office vulnerabilities CVE-2012-0158, CVE-2014-6352, CVE-2017-0199, and Adobe Flash CVE-2015-5119.###
+BlackTech has used DLL side loading by giving DLLs hardcoded names and placing them in searched directories.###
+BlackTech has used right-to-left-override to obfuscate the filenames of malicious e-mail attachments.###
+BlackTech has used spearphishing e-mails with links to cloud services to deliver malware.###
+BlackTech has used spearphishing e-mails with malicious documents to deliver malware.###
+BlackTech has used e-mails with malicious links to lure victims into installing malware.###
+BlackTech has used e-mails with malicious documents to lure victims into installing malware.###

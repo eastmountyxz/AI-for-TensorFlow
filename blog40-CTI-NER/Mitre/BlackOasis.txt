@@ -1,0 +1,2 @@
+BlackOasis is a Middle Eastern threat group that is believed to be a customer of Gamma Group. The group has shown interest in prominent figures in the United Nations, as well as opposition bloggers, activists, regional news correspondents, and think tanks.   A group known by Microsoft as NEODYMIUM is reportedly associated closely with BlackOasis operations, but evidence that the group names are aliases has not been identified. ###
+BlackOasis's first stage shellcode contains a NOP sled with alternative instructions that was likely designed to bypass antivirus tools.###

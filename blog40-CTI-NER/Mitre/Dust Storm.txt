@@ -1,0 +1,4 @@
+Dust Storm is a threat group that has targeted multiple industries in Japan, South Korea, the United States, Europe, and several Southeast Asian countries. ###
+Dust Storm has used Android backdoors capable of exfiltrating specific files directly from the infected devices.###
+Dust Storm has used Android backdoors capable of enumerating specific files on the infected devices.###
+Dust Storm has encoded payloads with a single-byte XOR, both skipping the key itself and zeroing in an attempt to avoid exposing the key.###

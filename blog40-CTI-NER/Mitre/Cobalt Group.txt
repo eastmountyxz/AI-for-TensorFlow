@@ -1,0 +1,34 @@
+Cobalt Group is a financially motivated threat group that has primarily targeted financial institutions. The group has conducted intrusions to steal money via targeting ATM systems, card processing, payment systems and SWIFT systems. Cobalt Group has mainly targeted banks in Eastern Europe, Central Asia, and Southeast Asia. One of the alleged leaders was arrested in Spain in early 2018, but the group still appears to be active. The group has been known to target organizations in order to use their access to then compromise additional victims.        Reporting indicates there may be links between Cobalt Group and both the malware Carbanak and the group Carbanak. ###
+Cobalt Group has bypassed UAC.###
+Cobalt Group has used HTTPS for C2.###
+Cobalt Group has used DNS tunneling for C2.###
+Cobalt Group has used Registry Run keys for persistence. The group has also set a Startup path to launch the PowerShell shell command and download Cobalt Strike.###
+Cobalt Group has added persistence by registering the file name for the next stage malware under HKCU\Environment\UserInitMprLogonScript.###
+Cobalt Group has sent Word OLE compound documents with malicious obfuscated VBA macros that will run upon user execution.###
+Cobalt Group has used powershell.exe to download and execute scripts.###
+Cobalt Group has used a JavaScript backdoor that is capable of launching cmd.exe to execute shell commands. The group has used an exploit toolkit known as Threadkit that launches .bat files.###
+Cobalt Group has executed JavaScript scriptlets on the victim's machine.###
+Cobalt Group has created new services to establish persistence.###
+Cobalt Group has used the Plink utility to create SSH tunnels.###
+Cobalt Group had exploited multiple vulnerabilities for execution, including Microsoft’s Equation Editor (CVE-2017-11882), an Internet Explorer vulnerability (CVE-2018-8174), CVE-2017-8570, CVE-2017-0199, and CVE-2017-8759.###
+Cobalt Group has used exploits to increase their levels of rights and privileges.###
+Cobalt Group deleted the DLL dropper from the victim’s machine to cover their tracks.###
+Cobalt Group has used public sites such as github.com and sendspace.com to upload files and then download them to victim computers. The group's JavaScript backdoor is also capable of downloading files.###
+Cobalt Group has sent malicious Word OLE compound documents to victims.###
+Cobalt Group leveraged an open-source tool called SoftPerfect Network Scanner to perform network scanning.###
+Cobalt Group obfuscated several scriptlets and code used on the victim’s machine, including through use of XOR and RC4.###
+Cobalt Group has sent emails with URLs pointing to malicious documents.###
+Cobalt Group has sent spearphishing emails with various attachment types to corporate and personal email accounts of victim organizations. Attachment types have included .rtf, .doc, .xls, archives containing LNK files, and password protected archives containing .exe and .scr executables.###
+Cobalt Group has injected code into trusted processes.###
+Cobalt Group has used the Plink utility to create SSH tunnels.###
+Cobalt Group used the Ammyy Admin tool as well as TeamViewer for remote access, including to preserve remote access if a Cobalt Strike module was lost.###
+Cobalt Group has used Remote Desktop Protocol to conduct lateral movement.###
+Cobalt Group has created Windows tasks to establish persistence.###
+Cobalt Group has used the command cmstp.exe /s /ns C:\Users\ADMINI~W\AppData\Local\Temp\XKNqbpzl.txt to bypass AppLocker and launch a malicious script.###
+Cobalt Group has used regsvr32.exe to execute scripts.###
+Cobalt Group has used odbcconf to proxy the execution of malicious DLL files.###
+Cobalt Group used a JavaScript backdoor that is capable of collecting a list of the security solutions installed on the victim's machine.###
+Cobalt Group has compromised legitimate web browser updates to deliver a backdoor. ###
+Cobalt Group has sent emails containing malicious attachments that require users to execute a file or macro to infect the victim machine.###
+Cobalt Group has sent emails containing malicious links that require users to execute a file or macro to infect the victim machine.###
+Cobalt Group used msxsl.exe to bypass AppLocker and to invoke Jscript code from an XSL file.###

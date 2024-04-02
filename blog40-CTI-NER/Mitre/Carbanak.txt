@@ -1,0 +1,10 @@
+Carbanak is a threat group that mainly targets banks. It also refers to malware of the same name (Carbanak). It is sometimes referred to as FIN7, but these appear to be two groups using the same Carbanak malware and are therefore tracked separately.  ###
+Carbanak malware installs itself as a service to provide persistence and SYSTEM privileges.###
+Carbanak’s Harpy backdoor malware can use DNS as a backup channel for C2 if HTTP fails. ###
+Carbanak may use netsh to add local firewall rule exceptions.###
+Carbanak has named malware "svchost.exe," which is the name of the Windows shared service host program.###
+Carbanak has copied legitimate service names to use for malicious services.###
+Carbanak used legitimate programs such as AmmyyAdmin and Team Viewer for remote interactive C2 to target systems.###
+Carbanak installs VNC server software that executes through rundll32.###
+Carbanak actors used legitimate credentials of banking employees to perform operations that sent them millions of dollars.###
+Carbanak has used a VBScript named "ggldr" that uses Google Apps Script, Sheets, and Forms services for C2.###

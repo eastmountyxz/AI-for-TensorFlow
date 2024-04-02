@@ -1,0 +1,10 @@
+DarkVishnya is a financially motivated threat actor targeting financial institutions in Eastern Europe. In 2017-2018 the group attacked at least 8 banks in this region.###
+DarkVishnya used brute-force attack to obtain login data.###
+DarkVishnya used PowerShell to create shellcode loaders.###
+DarkVishnya created new services for shellcode loaders distribution.###
+DarkVishnya used Bash Bunny, Raspberry Pi, netbooks or inexpensive laptops to connect to the company’s local network.###
+DarkVishnya performed port scanning to obtain the list of active services.###
+DarkVishnya scanned the network for public shared folders.###
+DarkVishnya used network sniffing to obtain login data. ###
+DarkVishnya used ports 5190 and 7900 for shellcode listeners, and 4444, 4445, 31337 for shellcode C2.###
+DarkVishnya used DameWare Mini Remote Control for lateral movement.###

@@ -1,0 +1,7 @@
+CopyKittens is an Iranian cyber espionage group that has been operating since at least 2013. It has targeted countries including Israel, Saudi Arabia, Turkey, the U.S., Jordan, and Germany. The group is responsible for the campaign known as Operation Wilted Tulip.   ###
+CopyKittens uses ZPP, a .NET console program, to compress files with ZIP.###
+CopyKittens encrypts data with a substitute cipher prior to exfiltration.###
+CopyKittens has used PowerShell Empire.###
+CopyKittens has used -w hidden and -windowstyle hidden to conceal PowerShell windows. ###
+CopyKittens uses rundll32 to load various tools on victims, including a lateral movement tool named Vminst, Cobalt Strike, and shellcode.###
+CopyKittens digitally signed an executable with a stolen certificate from legitimate company AI Squared.###
