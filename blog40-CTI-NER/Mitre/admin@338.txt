@@ -1,0 +1,13 @@
+admin@338 is a China-based cyber threat group. It has previously used newsworthy events as lures to deliver malware and has primarily targeted organizations involved in financial, economic, and trade policy, typically using publicly available RATs such as PoisonIvy, as well as some non-public backdoors. ###
+admin@338 actors used the following commands following exploitation of a machine with LOWBALL malware to enumerate user accounts: net user >> %temp%\download net user /domain >> %temp%\download###
+Following exploitation with LOWBALL malware, admin@338 actors created a file containing a list of commands to be executed on the compromised computer.###
+admin@338 has exploited client software vulnerabilities for execution, such as Microsoft Word CVE-2012-0158.###
+admin@338 actors used the following commands after exploiting a machine with LOWBALL malware to obtain information about files and directories: dir c:\ >> %temp%\download dir "c:\Documents and Settings" >> %temp%\download dir "c:\Program Files\" >> %temp%\download dir d:\ >> %temp%\download###
+admin@338 actors used the following command to rename one of their tools to a benign file name: ren "%temp%\upload" audiodg.exe###
+admin@338 actors used the following command following exploitation of a machine with LOWBALL malware to list local groups: net localgroup administrator >> %temp%\download###
+admin@338 has sent emails with malicious Microsoft Office documents attached.###
+admin@338 actors used the following commands after exploiting a machine with LOWBALL malware to obtain information about the OS: ver >> %temp%\download systeminfo >> %temp%\download###
+admin@338 actors used the following command after exploiting a machine with LOWBALL malware to acquire information about local networks: ipconfig /all >> %temp%\download###
+admin@338 actors used the following command following exploitation of a machine with LOWBALL malware to display network connections: netstat -ano >> %temp%\download###
+admin@338 actors used the following command following exploitation of a machine with LOWBALL malware to obtain information about services: net start >> %temp%\download###
+admin@338 has attempted to get victims to launch malicious Microsoft Word attachments delivered via spearphishing emails.###
