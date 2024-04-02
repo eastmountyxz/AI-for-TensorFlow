@@ -1,0 +1,28 @@
+Silence is a financially motivated threat actor targeting financial institutions in different countries. The group was first seen in June 2016. Their main targets reside in Russia, Ukraine, Belarus, Azerbaijan, Poland and Kazakhstan. They compromised various banking systems, including the Russian Central Bank's Automated Workstation Client, ATMs, and card processing.###
+Silence has used HKCU\Software\Microsoft\Windows\CurrentVersion\Run, HKLM\Software\Microsoft\Windows\CurrentVersion\Run, and the Startup folder to establish persistence.###
+Silence has used Windows command-line to run commands.###
+Silence has used VBS scripts.###
+Silence has used JS scripts.###
+Silence has used PowerShell to download and execute payloads.###
+Silence has deleted artifacts, including scheduled tasks, communicates files from the C2 and other logs.###
+Silence has downloaded additional modules and malware to victim’s machines.###
+Silence has named its backdoor "WINWORD.exe".###
+Silence can create, delete, or modify a specified Registry key or value.###
+Silence has leveraged the Windows API, including using CreateProcess() or ShellExecute(), to perform a variety of tasks.###
+Silence has used port 444 when sending data about the system from the client to the server.###
+Silence has used environment variable string substitution for obfuscation.###
+Silence has used the Farse6.1 utility (based on Mimikatz) to extract credentials from lsass.exe.###
+Silence has sent emails with malicious DOCX, CHM, LNK and ZIP attachments. ###
+Silence has injected a DLL library containing a Trojan into the fwmain32.exe process.###
+Silence has used ProxyBot, which allows the attacker to redirect traffic from the current node to the backconnect server via Sock4\Socks5.###
+Silence has used RDP for lateral movement.###
+Silence has used Nmap to scan the corporate network, build a network topology, and identify vulnerable hosts.###
+Silence has used scheduled tasks to stage its operation.###
+Silence can capture victim screen activity.###
+Silence has weaponized CHM files in their phishing campaigns.###
+Silence has used RAdmin, a remote software tool used to remotely control workstations and ATMs.###
+Silence has used a valid certificate to sign their primary loader Silence.Downloader (aka TrueBot).###
+Silence has used Winexe to install a service on the remote system.###
+Silence attempts to get users to launch malicious attachments delivered via spearphishing emails.###
+Silence has used compromised credentials to log on to other systems and escalate privileges.###
+Silence has been observed making videos of victims to observe bank employees day to day activities.###

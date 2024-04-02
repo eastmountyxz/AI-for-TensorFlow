@@ -1,0 +1,4 @@
+Winnti Group is a threat group with Chinese origins that has been active since at least 2010. The group has heavily targeted the gaming industry, but it has also expanded the scope of its targeting.    Some reporting suggests a number of other groups, including Axiom, APT17, and Ke3chang, are closely linked to Winnti Group. ###
+Winnti Group looked for a specific process running on infected servers.###
+Winnti Group used a rootkit to modify typical server functionality.###
+Winnti Group used stolen certificates to sign its malware.###

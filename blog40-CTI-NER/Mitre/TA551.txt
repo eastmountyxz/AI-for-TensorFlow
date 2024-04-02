@@ -1,0 +1,15 @@
+TA551 is a financially-motivated threat group that has been active since at least 2018.  The group has primarily targeted English, German, Italian, and Japanese speakers through email-based malware distribution campaigns. ###
+TA551 has used HTTP for C2 communications.###
+TA551 has used cmd.exe to execute commands.###
+TA551 has used encoded ASCII text for initial C2 communications.###
+TA551 has used a DGA to generate URLs from executed macros.###
+TA551 has used spoofed company emails that were acquired from email clients on previously infected hosts to target other individuals.###
+TA551 has retrieved DLLs and installer binaries for malware execution from C2.###
+TA551 has masked malware DLLs as dat and jpg files.###
+TA551 has used obfuscated variable names in a JavaScript configuration file.###
+TA551 has hidden encoded data for malware DLLs in a PNG.###
+TA551 has sent spearphishing attachments with password protected ZIP files.###
+TA551 has used rundll32.exe to load malicious DLLs.###
+TA551 has used regsvr32.exe to load malicious DLLs.###
+TA551 has used mshta.exe to execute malicious payloads.###
+TA551 has prompted users to enable macros within spearphishing attachments to install malware.###

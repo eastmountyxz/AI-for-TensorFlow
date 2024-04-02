@@ -1,0 +1,63 @@
+Turla is a Russian-based threat group that has infected victims in over 45 countries, spanning a range of industries including government, embassies, military, education, research and pharmaceutical companies since 2004. Heightened activity was seen in mid-2015. Turla is known for conducting watering hole and spearphishing campaigns and leveraging in-house tools and malware. Turla’s espionage platform is mainly used against Windows machines, but has also been seen used against macOS and Linux machines.###
+Turla RPC backdoors can impersonate or steal process tokens before executing commands.###
+Turla has used net user /domain to enumerate domain accounts.###
+Turla has used net user to enumerate local accounts on the system.###
+Turla has created web accounts including Dropbox and GitHub for C2 and document exfiltration.###
+Turla has used HTTP and HTTPS for C2 communications.###
+Turla has used multiple backdoors which communicate with a C2 server via email attachments.###
+Turla has encrypted files stolen from connected USB drives into a RAR file before exfiltration.###
+A Turla Javascript backdoor added a local_update_check value under the Registry key HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run to establish persistence. Additionally, a Turla custom executable containing Metasploit shellcode is saved to the Startup folder to gain persistence.###
+Turla established persistence by adding a Shell value under the Registry key HKCU\Software\Microsoft\Windows NT\CurrentVersion\Winlogon.###
+Turla may attempt to connect to systems within a victim's network using net use commands and a predefined list or collection of passwords.###
+Turla has used PowerShell to execute commands/scripts, in some cases via a custom executable or code from Empire's PSInject. Turla has also used PowerShell scripts to load and execute malware in memory.###
+Turla RPC backdoors have used cmd.exe to execute commands.###
+Turla has used VBS scripts throughout its operations.###
+Turla has used IronPython scripts as part of the IronNetInjector toolchain to drop payloads.###
+Turla has used various JavaScript-based backdoors.###
+Turla has used the VPS infrastructure of compromised Iranian threat actors.###
+Turla has frequently used compromised WordPress sites for C2 infrastructure.###
+Turla has used compromised servers as infrastructure.###
+Turla has gathered credentials from the Windows Credential Manager tool.###
+Turla has used a custom .NET tool to collect documents from an organization's internal central database.###
+Turla RPC backdoors can upload files from victim machines.###
+Turla RPC backdoors can collect files from USB thumb drives.###
+Turla has used a custom decryption routine, which pulls key and salt values from other artifacts such as a WMI filter or PowerShell Profile, to decode encrypted PowerShell payloads.###
+Turla has developed its own unique malware for use in operations.###
+Turla has infected victims using watering holes.###
+Turla has used PowerShell profiles to maintain persistence on an infected machine.###
+Turla has used WMI event filters and consumers to establish persistence.###
+Turla has used WebDAV to upload stolen USB files to a cloud drive. Turla has also exfiltrated stolen files to OneDrive and 4shared.###
+Turla has exploited vulnerabilities in the VBoxDrv.sys driver to obtain kernel mode privileges.###
+Turla surveys a system upon check-in to discover files in specific locations on the hard disk %TEMP% directory, the current user's desktop, the Program Files directory, and Recent. Turla RPC backdoors have also searched for files matching the lPH*.dll pattern.###
+Turla has used a AMSI bypass, which patches the in-memory amsi.dll, in PowerShell scripts to bypass Windows antimalware products.###
+Turla has used shellcode to download Meterpreter after compromising a victim.###
+Turla RPC backdoors can be used to transfer files to/from victim machines on the local network.###
+Turla has used the Registry to store encrypted payloads.###
+Turla and its RPC backdoors have used APIs calls for various tasks related to subverting AMSI and accessing then executing commands through RPC and/or named pipes.###
+Turla has used encryption (including salted 3DES via PowerSploit's Out-EncryptedScript.ps1), random variable names, and base64 encoding to obfuscate PowerShell commands and payloads.###
+Based on comparison of Gazer versions, Turla made an effort to obfuscate strings in the malware that could be used as IoCs, including the mutex name and named pipe.###
+Turla has used malware obtained after compromising other threat actors, such as OilRig.###
+Turla has used net accounts and net accounts /domain to acquire password policy information.###
+Turla has used fsutil fsinfo drives to list connected drives.###
+Turla has used net group "Domain Admins" /domain to identify domain administrators.###
+Turla has used net localgroup and net localgroup Administrators to enumerate group information, including members of the local administrators group.###
+Turla attempted to trick targets into clicking on a link featuring a seemingly legitimate domain from Adobe.com to download their malware and gain initial access.###
+Turla surveys a system upon check-in to discover running processes using the tasklist /v command. Turla RPC backdoors have also enumerated processes associated with specific open ports or named pipes.###
+Turla has also used PowerSploit's Invoke-ReflectivePEInjection.ps1 to reflectively load a PowerShell payload into a random process on the victim system.###
+Turla has used Metasploit to perform reflective DLL injection in order to escalate privileges.###
+Turla RPC backdoors have included local UPnP RPC proxies.###
+Turla surveys a system upon check-in to discover information in the Windows Registry with the reg query command. Turla has also retrieved PowerShell payloads hidden in Registry keys as well as checking keys associated with null session named pipes .###
+Turla used net use commands to connect to lateral systems within a network.###
+Turla surveys a system upon check-in to discover remote systems on a local network using the net view and net view /DOMAIN commands. Turla has also used net group "Domain Computers" /domain, net group "Domain Controllers" /domain, and net group "Exchange Servers" /domain to enumerate domain computers, including the organization's DC and Exchange Server.###
+Turla has obtained information on security software, including security logging information that may indicate whether their malware has been detected.###
+Turla has modified variables in kernel memory to turn off Driver Signature Enforcement after exploiting vulnerabilities that obtained kernel mode privileges.###
+Turla surveys a system upon check-in to discover operating system configuration details using the systeminfo, gpresult, and set commands.###
+Turla surveys a system upon check-in to discover network configuration details using the arp -a, nbtstat -n, net config, ipconfig /all, and route commands, as well as NBTscan. Turla RPC backdoors have also retrieved registered RPC interface information from process memory.###
+Turla has used tracert to check internet connectivity.###
+Turla surveys a system upon check-in to discover active local network connections using the netstat -an, net use, net file, and net session commands. Turla RPC backdoors have also enumerated the IPv4 TCP connection table via the GetTcpTable2 API call.###
+Turla surveys a system upon check-in to discover running services and associated processes using the tasklist /svc command.###
+Turla surveys a system upon check-in to discover the system time by using the net time command.###
+Turla has used spearphishing via a link to get users to download and run their malware.###
+Turla has abused local accounts that have the same password across the victim’s network.###
+Turla has used legitimate web services including Pastebin, Dropbox, and GitHub for C2 communications.###
+A Turla JavaScript backdoor has used Google Apps Script as its C2 server.###

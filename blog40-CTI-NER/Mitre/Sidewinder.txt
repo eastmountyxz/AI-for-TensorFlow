@@ -1,0 +1,30 @@
+Sidewinder is a suspected Indian threat actor group that has been active since at least 2012. They have been observed targeting government, military, and business entities throughout Asia, primarily focusing on Pakistan, China, Nepal, and Afghanistan.###
+Sidewinder has used HTTP in C2 communications.###
+Sidewinder has used tools to automatically collect system and network configuration information.###
+Sidewinder has configured tools to automatically send collected files to attacker controlled servers.###
+Sidewinder has added paths to executables in the Registry to establish persistence.###
+Sidewinder has used PowerShell to drop and execute malware loaders.###
+Sidewinder has used JavaScript to drop and execute malware loaders.###
+Sidewinder has used VBScript to drop and execute malware loaders.###
+Sidewinder has collected stolen files in a temporary folder in preparation for exfiltration.###
+Sidewinder has exploited vulnerabilities to gain execution including CVE-2017-11882 and CVE-2020-0674.###
+Sidewinder has used malware to collect information on files and directories.###
+Sidewinder has used DLL side-loading to drop and execute malicious payloads including the hijacking of the legitimate Windows application file rekeywiz.exe.###
+Sidewinder has used LNK files to download remote files to the victim's network.###
+Sidewinder has used the ActiveXObject utility to create OLE objects to obtain execution through Internet Explorer.###
+Sidewinder has named malicious files rekeywiz.exe to match the name of a legitimate Windows executable.###
+Sidewinder has used base64 encoding and ECDH-P256 encryption for scripts and files.###
+Sidewinder has sent e-mails with malicious links often crafted for specific targets.###
+Sidewinder has sent e-mails with malicious attachments often crafted for specific targets.###
+Sidewinder has sent e-mails with malicious links to credential harvesting websites.###
+Sidewinder has sent e-mails with malicious attachments that lead victims to credential harvesting websites.###
+Sidewinder has used tools to identify running processes on the victim's machine.###
+Sidewinder has used mshta.exe to execute malicious payloads.###
+Sidewinder has used tools to enumerate software installed on an infected host.###
+Sidewinder has used the Windows service winmgmts:\.\root\SecurityCenter2 to check installed antivirus products.###
+Sidewinder has used tools to collect the computer name, OS version, installed hotfixes, as well as information regarding the memory and processor on a compromised host.###
+Sidewinder has used malware to collect information on network interfaces, including the MAC address.###
+Sidewinder has used tools to identify the user of a compromised host.###
+Sidewinder has used tools to obtain the current system time.###
+Sidewinder has lured targets to click on malicious files to gain execution in the target environment.###
+Sidewinder has lured targets to click on malicious links to gain execution in the target environment.###

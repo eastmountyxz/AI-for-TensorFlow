@@ -1,0 +1,10 @@
+Sowbug is a threat group that has conducted targeted attacks against organizations in South America and Southeast Asia, particularly government entities, since at least 2015. ###
+Sowbug extracted documents and bundled them into a RAR archive.###
+Sowbug has used command line during its intrusions.###
+Sowbug extracted Word documents from a file server on a victim network.###
+Sowbug identified and extracted all Word documents on a server by using a command containing * .doc and *.docx. The actors also searched for documents based on a specific date range and attempted to identify all installed software on a victim.###
+Sowbug has used keylogging tools.###
+Sowbug named its tools to masquerade as Windows or Adobe Reader software, such as by using the file name adobecms.exe and the directory CSIDL_APPDATA\microsoft\security.###
+Sowbug listed remote shared drives that were accessible from a victim.###
+Sowbug has used credential dumping tools.###
+Sowbug obtained OS version and hardware configuration from a victim.###

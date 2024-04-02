@@ -1,0 +1,4 @@
+SilverTerrier is a Nigerian threat group that has been seen active since 2014. SilverTerrier mainly targets organizations in high technology, higher education, and manufacturing.###
+SilverTerrier uses SMTP for C2 communications.###
+SilverTerrier uses HTTP for C2 communications.###
+SilverTerrier uses FTP for C2 communications.###

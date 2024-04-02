@@ -1,0 +1,6 @@
+Suckfly is a China-based threat group that has been active since at least 2014. ###
+Several tools used by Suckfly have been command-line driven.###
+Suckfly the victim's internal network for hosts with ports 8080, 5900, and 40 open.###
+Suckfly used a signed credential-dumping tool to obtain victim account credentials.###
+Suckfly has used stolen certificates to sign its malware.###
+Suckfly used legitimate account credentials that they dumped to navigate the internal victim network as though they were the legitimate account owner.###

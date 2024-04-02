@@ -1,0 +1,6 @@
+TA459 is a threat group believed to operate out of China that has targeted countries including Russia, Belarus, Mongolia, and others. ###
+TA459 has a VBScript for execution.###
+TA459 has used PowerShell for execution of a payload.###
+TA459 has exploited Microsoft Word vulnerability CVE-2017-0199 for execution.###
+TA459 has targeted victims using spearphishing emails with malicious Microsoft Word attachments.###
+TA459 has attempted to get victims to open malicious Microsoft Word attachment sent via spearphishing.###

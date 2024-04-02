@@ -1,0 +1,4 @@
+Thrip is an espionage group that has targeted satellite communications, telecoms, and defense contractor companies in the U.S. and Southeast Asia. The group uses custom malware as well as "living off the land" techniques. ###
+Thrip leveraged PowerShell to run commands to download payloads, traverse the compromised networks, and carry out reconnaissance.###
+Thrip has used WinSCP to exfiltrate data from a targeted organization over FTP.###
+Thrip used a cloud-based remote access software called LogMeIn for their attacks.###

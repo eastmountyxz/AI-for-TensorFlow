@@ -1,0 +1,26 @@
+TA505 is a financially motivated threat group that has been active since at least 2014. The group is known for frequently changing malware and driving global trends in criminal malware distribution.###
+TA505 has used the tool EmailStealer to steal and send lists of e-mail addresses to a remote server.###
+TA505 has used HTTP to communiate with C2 nodes.###
+TA505 has used PowerShell to download and execute malware and reconnaissance scripts.###
+TA505 has used VBS for code execution.###
+TA505 has used JavaScript for code execution.###
+TA505 has executed commands using cmd.exe.###
+TA505 has used malware to gather credentials from Internet Explorer.###
+TA505 has used a wide variety of ransomware, such as Locky, Jaff, Bart, Philadelphia, and GlobeImposter, to encrypt victim files and demand a ransom payment.###
+TA505 has used fast flux to mask botnets by distributing payloads across multiple IPs.###
+TA505 has downloaded additional malware to execute on victim systems.###
+TA505 has leveraged malicious Word documents that abused DDE.###
+TA505 has password-protected malicious Word documents and used base64 encoded PowerShell commands.###
+TA505 has used UPX to obscure malicious code.###
+TA505 has used TinyMet to enumerate members of privileged groups. TA505 has also run net group /domain.###
+TA505 has used spearphishing emails with malicious attachments to initially compromise victims.###
+TA505 has sent spearphishing emails containing malicious links.###
+TA505 has been seen injecting a DLL into winword.exe.###
+TA505 has used msiexec to download and execute malicious Windows Installer files.###
+TA505 has leveraged rundll32.exe to execute malicious DLLs.###
+TA505 has signed payloads with code signing certificates from Thawte and Sectigo.###
+TA505 has used .iso files to deploy malicious .lnk files.###
+TA505 has used malware to gather credentials from FTP clients and Outlook.###
+TA505 has used lures to get users to enable content in malicious attachments and execute malicious files contained in archives. For example, TA505 makes their malware look like legitimate Microsoft Word documents, .pdf and/or .lnk files. ###
+TA505 has used lures to get users to click links in emails and attachments. For example, TA505 makes their malware look like legitimate Microsoft Word documents, .pdf and/or .lnk files. ###
+TA505 has used stolen domain admin accounts to compromise additional hosts.###

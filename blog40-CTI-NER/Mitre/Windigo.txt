@@ -1,0 +1,8 @@
+The Windigo group has been operating since at least 2011, compromising thousands of Linux and Unix servers using the Ebury SSH backdoor to create a spam botnet. Despite law enforcement intervention against the creators, Windigo operators continued updating Ebury through 2019.###
+Windigo has used a Perl script for information gathering.###
+Windigo has used a script to gather credentials in files left on disk by OpenSSH backdoors.###
+Windigo has distributed Windows malware via drive-by downloads.###
+Windigo has used a script to check for the presence of files created by OpenSSH backdoors.###
+Windigo has delivered a generic Windows proxy Win32/Glubteta.M. Windigo has also used multiple reverse proxy chains as part of their C2 infrastructure.###
+Windigo has used a script to detect installed software on targeted systems.###
+Windigo has used a script to detect which Linux distribution and version is currently installed on the system.###

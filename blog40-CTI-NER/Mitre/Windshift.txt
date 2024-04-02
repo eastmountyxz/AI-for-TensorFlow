@@ -1,0 +1,37 @@
+Windshift is a threat group that has been active since at least 2017, targeting specific individuals for surveillance in government departments and critical infrastructure across the Middle East.###
+Windshift has used tools that communicate with C2 over HTTP.###
+Windshift has created LNK files in the Startup folder to establish persistence.###
+Windshift has used Visual Basic 6 (VB6) payloads.###
+Windshift has used compromised websites to register custom URL schemes on a remote system.###
+Windshift has used tools to deploy additional payloads to compromised hosts.###
+Windshift has used icons mimicking MS Office files to mask malicious executables. Windshift has also attempted to hide executables by changing the file extension to ".scr" to mimic Windows screensavers.###
+Windshift has used revoked certificates to sign malware.###
+Windshift has used string encoding with floating point calculations.###
+Windshift has sent spearphishing emails with links to harvest credentials and deliver malware.###
+Windshift has sent spearphishing emails with attachment to harvest credentials and deliver malware.###
+Windshift has used fake personas on social media to engage and target victims.###
+Windshift has used malware to enumerate active processes.###
+Windshift has used malware to identify installed software.###
+Windshift has used malware to identify installed AV and commonly used forensic and malware analysis tools.###
+Windshift has used malware to identify the computer name of a compromised host.###
+Windshift has used malware to identify the username on a compromised host.###
+Windshift has used e-mail attachments to lure victims into executing malicious code.###
+Windshift has used links embedded in e-mails to lure victims into executing malicious code.###
+Windshift has used WMI to collect information about target machines.###
+Windshift has included contact list exfiltration in the malicious apps deployed as part of Operation BULL.###
+Windshift has included phone call and audio recording capabilities in the malicious apps deployed as part of Operation BULL and Operation ROCK.###
+Windshift has included video recording in the malicious apps deployed as part of Operation BULL.###
+Windshift has included SMS message exfiltration in the malicious apps deployed as part of Operation BULL and Operation ROCK.###
+Windshift has exfiltrated local account data and calendar information as part of Operation ROCK.###
+Windshift has distributed malicious apps via the Google Play Store and Apple App Store.###
+Windshift has distributed malicious apps via their own websites during Operation BULL.###
+Windshift has included malware functionality capable of downloading new DEX files at runtime during Operation BULL.###
+Windshift has deployed anti-analysis capabilities during their Operation BULL campaign.###
+Windshift has included file enumeration in the malicious apps deployed as part of Operation BULL and Operation ROCK.###
+Windshift has region-locked their malicious applications during their Operation BULL campaign.###
+Windshift has included keylogging capabilities as part of Operation ROCK.###
+Windshift has installed malicious MDM profiles on iOS devices as part of Operation ROCK.###
+Windshift has included location tracking capabilities in the malicious apps deployed as part of Operation BULL and Operation ROCK.###
+Windshift has encrypted application strings using AES in ECB mode and Blowfish, and stored strings encoded in hex during Operation BULL. Further, in Operation BULL, encryption keys were stored within the application’s launcher icon file.###
+Windshift has encrypted C2 communications using AES in CBC mode during Operation BULL and Operation ROCK.###
+Windshift has included system information enumeration in the malicious apps deployed as part of Operation BULL and Operation ROCK.###

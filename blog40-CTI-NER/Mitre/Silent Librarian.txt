@@ -1,0 +1,14 @@
+Silent Librarian is a group that has targeted research and proprietary data at universities, government agencies, and private sector companies worldwide since at least 2013. Members of  Silent Librarian are known to have been affiliated with the Iran-based Mabna Institute which has conducted cyber intrusions at the behest of the government of Iran, specifically the Islamic Revolutionary Guard Corps (IRGC).###
+Silent Librarian has acquired domains to establish credential harvesting pages, often spoofing the target organization and using free top level domains .TK, .ML, .GA, .CF, and .GQ.###
+Silent Librarian has used collected lists of names and e-mail accounts to use in password spraying attacks against private sector targets.###
+Silent Librarian has exfiltrated entire mailboxes from compromised accounts.###
+Silent Librarian has set up auto forwarding rules on compromised e-mail accounts.###
+Silent Librarian has established e-mail accounts to receive e-mails forwarded from compromised accounts.###
+Silent Librarian has collected lists of names for individuals from targeted organizations.###
+Silent Librarian has collected e-mail addresses from targeted organizations from open Internet searches.###
+Silent Librarian has obtained free Let's Encrypt SSL certificates for use on their phishing pages.###
+Silent Librarian has obtained free and publicly available tools including SingleFile and HTTrack to copy login pages of targeted organizations.###
+Silent Librarian has used links in e-mails to direct victims to credential harvesting websites designed to appear like the targeted organization's login page.###
+Silent Librarian has searched victim's websites to identify the interests and academic areas of targeted individuals and to scrape source code, branding, and organizational contact information for phishing pages.###
+Silent Librarian has cloned victim organization login pages and staged them for later use in credential harvesting campaigns. Silent Librarian has also made use of a variety of URL shorteners for these staged websites.###
+Silent Librarian has used compromised credentials to obtain unauthorized access to online accounts.###

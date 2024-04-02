@@ -1,0 +1,9 @@
+Operation Sharpshooter is the name of a cyber espionage campaign discovered in October 2018 targeting nuclear, defense, energy, and financial companies. Though overlaps between this adversary and Lazarus Group have been noted, definitive links have not been established.###
+Sharpshooter's first-stage downloader installed Rising Sun to the startup folder %Startup%\mssync.exe.###
+Sharpshooter's first-stage downloader was a VBA macro.###
+Sharpshooter downloaded additional payloads after a target was infected with a first-stage downloader.###
+Sharpshooter has sent malicious Word OLE documents to victims.###
+Sharpshooter's first-stage downloader resolved various Windows libraries and APIs, including LoadLibraryA(), GetProcAddress(), and CreateProcessA().###
+Sharpshooter has sent malicious attachments via emails to targets.###
+Sharpshooter has leveraged embedded shellcode to inject a downloader into the memory of Word.###
+Sharpshooter has sent malicious DOC and PDF files to targets so that they can be opened by a user.###

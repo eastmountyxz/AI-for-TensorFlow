@@ -1,0 +1,9 @@
+Whitefly is a cyber espionage group that has been operating since at least 2017. The group has targeted organizations based mostly in Singapore across a wide variety of sectors, and is primarily interested in stealing large amounts of sensitive information. The group has been linked to an attack against Singapore’s largest public health organization, SingHealth.###
+Whitefly has used a simple remote shell tool that will call back to the C2 server and wait for commands.###
+Whitefly has used an open-source tool to exploit a known Windows privilege escalation vulnerability (CVE-2016-0051) on unpatched computers.###
+Whitefly has used search order hijacking to run the loader Vcrodat.###
+Whitefly has the ability to download additional tools from the C2.###
+Whitefly has named the malicious DLL the same name as DLLs belonging to legitimate software from various security vendors.###
+Whitefly has encrypted the payload used for C2.###
+Whitefly has used Mimikatz to obtain credentials.###
+Whitefly has used malicious .exe or .dll files disguised as documents or images.###
