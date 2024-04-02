@@ -1,0 +1,2 @@
+APT16 is a China-based threat group that has launched spearphishing campaigns targeting Japanese and Taiwanese organizations. ###
+APT16 has compromised otherwise legitimate sites as staging servers for second-stage payloads.###

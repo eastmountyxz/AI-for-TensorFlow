@@ -1,0 +1,9 @@
+APT-C-36 is a suspected South America espionage group that has been active since at least 2018. The group mainly targets Colombian government institutions as well as important corporations in the financial sector, petroleum industry, and professional manufacturing.###
+APT-C-36 has embedded a VBScript within a malicious Word document which is executed upon the document opening.###
+APT-C-36 has downloaded binary data from a specified domain after the malicious document is opened.###
+APT-C-36 has disguised its scheduled tasks as those used by Google.###
+APT-C-36 has used port 4050 for C2 communications.###
+APT-C-36 has used ConfuserEx to obfuscate its variant of Imminent Monitor, compressed payload and RAT packages, and password protected encrypted email attachments to avoid detection.###
+APT-C-36 has used spearphishing emails with password protected RAR attachment to avoid being detected by the email gateway.###
+APT-C-36 has used a macro function to set scheduled tasks, disguised as those used by Google.###
+APT-C-36 has prompted victims to accept macros in order to execute the subsequent payload.###

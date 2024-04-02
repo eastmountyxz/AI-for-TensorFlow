@@ -1,0 +1,69 @@
+APT28 is a threat group that has been attributed to Russia's General Staff Main Intelligence Directorate (GRU) 85th Main Special Service Center (GTsSS) military unit 26165. This group has been active since at least 2004.          ###
+APT28 reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election.  In 2018, the US indicted five GRU Unit 26165 officers associated with APT28 for cyber operations (including close-access operations) conducted between 2014 and 2018 against the World Anti-Doping Agency (WADA), the US Anti-Doping Agency, a US nuclear facility, the Organization for the Prohibition of Chemical Weapons (OPCW), the Spiez Swiss Chemicals Laboratory, and other organizations. Some of these were conducted with the assistance of GRU Unit 74455, which is also referred to as Sandworm Team.###
+APT28 has used CVE-2015-1701 to access the SYSTEM token and copy it into the current process as part of privilege escalation.###
+APT28 registered domains imitating NATO, OSCE security websites, Caucasus information resources and other organizations. ###
+APT28 has performed large-scale scans in an attempt to find vulnerable servers.###
+APT28 used SMTP as a communication channel in various implants, initially using self-registered Google Mail accounts and later compromised email servers of its victims.###
+Later implants used by APT28, such as CHOPSTICK, use a blend of HTTP and other legitimate channels for C2, depending on module configuration.###
+APT28 used a publicly available tool to gather and compress multiple documents on the DCCC and DNC networks.###
+APT28 used a publicly available tool to gather and compress multiple documents on the DCCC and DNC networks.###
+APT28 has deployed malware that has copied itself to the startup directory for persistence.###
+An APT28 loader Trojan adds the Registry key HKCU\Environment\UserInitMprLogonScript to establish persistence.###
+APT28 can perform brute force attacks to obtain credentials.###
+APT28 has used a brute-force/password-spray tooling that operated in two modes: in password-spraying mode it conducted approximately four authentication attempts per hour per targeted account over the course of several days or weeks.###
+APT28 has used a brute-force/password-spray tooling that operated in two modes: in brute-force mode it typically sent over 300 authentication attempts per hour per targeted account over the course of several hours or days.###
+APT28 downloads and executes PowerShell scripts and performs PowerShell commands.###
+An APT28 loader Trojan uses a cmd.exe and batch script to run its payload. The group has also used macros to execute payloads.###
+APT28 uses a tool that captures information from air-gapped computers via an infected USB and transfers it to network-connected computer when the USB is inserted.###
+APT28 has collected information from Microsoft SharePoint services within target networks.###
+APT28 has retrieved internal documents from machines inside victim environments, including by using Forfiles to stage documents before exfiltration.###
+An APT28 backdoor may collect the entire contents of an inserted USB device.###
+APT28 added "junk data" to each encoded string, preventing trivial decoding without knowledge of the junk removal algorithm. Each implant was given a "junk length" value when created, tracked by the controller software to allow seamless communication but prevent analysis of the command protocol on the wire.###
+APT28 has stored captured credential information in a file named pi.log.###
+An APT28 macro uses the command certutil -decode to decode contents of a .txt file storing the base64 encoded payload.###
+APT28 has collected emails from victim Microsoft Exchange servers.###
+APT28 installed a Delphi backdoor that used a custom algorithm for C2 communications.###
+APT28 has used COM hijacking for persistence by replacing the legitimate MMDeviceEnumerator object with a payload.###
+APT28 can exfiltrate data over Google Drive.###
+APT28 has conducted SQL injection attacks against organizations' external websites.###
+APT28 has exploited Microsoft Office vulnerability CVE-2017-0262 for execution.###
+APT28 has used CVE-2015-4902 to bypass security features.###
+APT28 has exploited CVE-2014-4076, CVE-2015-2387, CVE-2015-1701, CVE-2017-0263 to escalate privileges.###
+APT28 exploited a Windows SMB Remote Code Execution Vulnerability to conduct lateral movement.###
+APT28 has used Forfiles to locate PDF, Excel, and Word documents during collection. The group also searched a compromised DCCC computer for specific terms.###
+APT28 has harvested user's login credentials.###
+APT28 has saved files with hidden file attributes.###
+APT28 has used the WindowStyle parameter to conceal PowerShell windows. ###
+APT28 has performed timestomping on victim files.###
+APT28 has cleared event logs, including by using the commands wevtutil cl System and wevtutil cl Security.###
+APT28 has intentionally deleted computer files to cover their tracks, including with use of the program CCleaner.###
+APT28 has downloaded additional files, including by using a first-stage downloader to contact the C2 server to obtain the second-stage implant.###
+APT28 has used tools to perform keylogging.###
+APT28 has delivered JHUHUGIT and Koadic by executing PowerShell commands through DDE in Word documents.###
+In 2016, APT28 conducted a distributed denial of service (DDoS) attack against the World Anti-Doping Agency.###
+APT28 deployed the open source tool Responder to conduct NetBIOS Name Service poisoning, which captured usernames and hashed passwords that allowed access to legitimate credentials. APT28 close-access teams have used Wi-Fi pineapples to intercept Wi-Fi signals and user credentials.###
+APT28 encrypted a .dll payload using RTL and a custom encryption algorithm. APT28 has also obfuscated payloads with base64, XOR, and RC4.###
+APT28 has used the Office Test persistence mechanism within Microsoft Office by adding the Registry key HKCU\Software\Microsoft\Office test\Special\Perf to execute code.###
+APT28 regularly deploys both publicly available (ex: Mimikatz) and custom password retrieval tools on victims.###
+APT28 regularly deploys both publicly available (ex: Mimikatz) and custom password retrieval tools on victims.###
+APT28 uses a module to receive a notification every time a USB mass storage device is inserted into a victim.###
+APT28 sent spearphishing emails which used a URL-shortener service to masquerade as a legitimate service and to redirect targets to credential harvesting sites.###
+APT28 sent spearphishing emails containing malicious Microsoft Office and RAR attachments.###
+APT28 has used spearphishing to compromise credentials.###
+APT28 has deployed a bootkit along with Downdelph to ensure its persistence on the victim. The bootkit shares code with some variants of BlackEnergy.###
+An APT28 loader Trojan will enumerate the victim's processes searching for explorer.exe if its current process does not have necessary permissions.###
+APT28 used other victims as proxies to relay command traffic, for instance using a compromised Georgian military email server as a hop point to NATO victims. The group has also used a tool that acts as a proxy to allow C2 even if the victim is behind a router. APT28 has also used a machine to relay and obscure communications between CHOPSTICK and their server.###
+APT28 has routed traffic over Tor and VPN servers to obfuscate their activities.###
+APT28 uses a tool to infect connected USB devices and transmit itself to air-gapped computers when the infected USB device is inserted.###
+APT28 has used a UEFI (Unified Extensible Firmware Interface) rootkit known as LoJax.###
+APT28 has used tools to take screenshots from victims.###
+APT28 executed CHOPSTICK by using rundll32 commands such as rundll32.exe "C:\Windows\twain_64.dll". APT28 also executed a .dll for a first stage dropper using rundll32.exe. An APT28 loader Trojan saved a batch script that uses rundll32 to execute a DLL payload.###
+APT28 has used several malicious applications to steal user OAuth access tokens including applications masquerading as "Google Defender" "Google Email Protection," and "Google Scanner" for Gmail users. They also targeted Yahoo users with applications masquerading as "Delivery Service" and "McAfee Email Protection".###
+APT28 used weaponized Microsoft Word documents abusing the remote template function to retrieve a malicious macro. ###
+Once APT28 gained access to the DCCC network, the group then proceeded to use that access to compromise the DNC network.###
+APT28 has used pass the hash for lateral movement.###
+APT28 has used several malicious applications that abused OAuth access tokens to gain access to target email accounts, including Gmail and Yahoo Mail.###
+APT28 attempted to get users to click on Microsoft Office attachments containing malicious macro scripts.###
+APT28 has tricked unwitting recipients into clicking on malicious hyperlinks within emails crafted to resemble trustworthy senders.###
+APT28 has used legitimate credentials to gain initial access, maintain access, and exfiltrate data from a victim network. The group has specifically used credentials stolen through a spearphishing email to login to the DCCC network. The group has also leveraged default manufacturer's passwords to gain initial access to corporate networks via IoT devices such as a VOIP phone, printer, and video decoder.###
+APT28 has used Google Drive for C2.###

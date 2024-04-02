@@ -1,0 +1,6 @@
+APT12 is a threat group that has been attributed to China. The group has targeted a variety of victims including but not limited to media outlets, high-tech companies, and multiple governments.###
+APT12 has used multiple variants of DNS Calculation including multiplying the first two octets of an IP address and adding the third octet to that value in order to get a resulting command and control port.###
+APT12 has exploited multiple vulnerabilities for execution, including Microsoft Office vulnerabilities (CVE-2009-3129, CVE-2012-0158) and vulnerabilities in Adobe Reader and Flash (CVE-2009-4324, CVE-2009-0927, CVE-2011-0609, CVE-2011-0611).###
+APT12 has sent emails with malicious Microsoft Office documents and PDFs attached.###
+APT12 has attempted to get victims to open malicious Microsoft Word and PDF attachment sent via spearphishing.###
+APT12 has used blogs and WordPress for C2 infrastructure.###

@@ -1,0 +1,57 @@
+APT41 is a threat group that researchers have assessed as Chinese state-sponsored espionage group that also conducts financially-motivated operations. APT41 has been active since as early as 2012. The group has been observed targeting healthcare, telecom, technology, and video game industries in 14 countries.###
+APT41 used DNS for C2 communications.###
+APT41 used exploit payloads that initiate download via FTP.###
+APT41 used HTTP to download payloads for CVE-2019-19781 and CVE-2020-10189 exploits.###
+APT41 created a RAR archive of targeted files for exfiltration.###
+APT41 used BITSAdmin to download and install payloads.###
+APT41 created and modified startup files for persistence. APT41 added a registry key in HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Svchost to establish persistence for Cobalt Strike.###
+APT41 performed password brute-force attacks on the local admin account.###
+APT41 leveraged PowerShell to deploy malware families in victims’ environments.###
+APT41 used cmd.exe /c to execute commands on remote machines.APT41 used a batch file to install persistence for the Cobalt Strike BEACON loader.###
+APT41 executed file /bin/pwd in activity exploiting CVE-2019-19781 against Citrix devices.###
+APT41 created user accounts and adds them to the User and Admin groups.###
+APT41 modified legitimate Windows services to install malware backdoors. APT41 created the StorSyncSvc service to provide persistence for Cobalt Strike.###
+APT41 used a ransomware called Encryptor RaaS to encrypt files on the targeted systems and provide a ransom note to the user.###
+APT41 has used DGAs to change their C2 servers monthly.###
+APT41 leveraged sticky keys to establish persistence.###
+APT41 has encrypted payloads using the Data Protection API (DPAPI), which relies on keys tied to specific user accounts on specific machines. APT41 has also environmentally keyed second stage malware with an RC5 key derived in part from the infected system's volume serial number.###
+APT41 exploited CVE-2020-10189 against Zoho ManageEngine Desktop Central, and CVE-2019-19781 to compromise Citrix Application Delivery Controllers (ADC) and gateway devices.###
+APT41 leveraged the follow exploits in their operations: CVE-2012-0158, CVE-2015-1641, CVE-2017-0199, CVE-2017-11882, and CVE-2019-3396.###
+APT41 compromised an online billing/payment service using VPN access between a third-party service provider and the targeted payment service.###
+APT41 used the Steam community page as a fallback mechanism for C2.###
+APT41 has executed file /bin/pwd on exploited victims, perhaps to return architecture related information.###
+APT41 used legitimate executables to perform DLL side-loading of their malware.###
+APT41 has configured payloads to load via LD_PRELOAD.###
+APT41 has used search order hijacking to execute malicious payloads, such as Winnti RAT.###
+APT41 attempted to remove evidence of some of its activity by clearing Windows security and system events.###
+APT41 attempted to remove evidence of some of its activity by deleting Bash histories.###
+APT41 deleted files from the system.###
+APT41 used certutil to download additional files.###
+APT41 used a keylogger called GEARSHIFT on a target system.###
+APT41 attempted to masquerade their files as popular anti-virus software.###
+APT41 used a malware variant called GOODLUCK to modify the registry in order to steal credentials.###
+APT41 used the storescyncsvc.dll BEACON backdoor to download a secondary backdoor.###
+APT41 used a malware variant called WIDETONE to conduct port scans on the specified subnets.###
+APT41 used the net share command as part of network reconnaissance.###
+APT41 used VMProtected binaries in multiple intrusions.###
+APT41 used the Windows Credential Editor to dump password hashes from memory and authenticate to other user accounts.###
+APT41 sent spearphishing emails with attachments such as compiled HTML (.chm) files to initially compromise their victims.###
+APT41 deployed Master Boot Record bootkits on Windows systems to hide their malware and maintain persistence on victim systems.###
+APT41 malware TIDYELF loaded the main WINTERLOVE component by injecting it into the iexplore.exe process.###
+APT41 used a tool called CLASSFON to covertly proxy network communications.###
+APT41 used RDP for lateral movement.###
+APT41 has transferred implant files using Windows Admin Shares.###
+APT41 deployed a Monero cryptocurrency mining tool in a victim’s environment.###
+APT41 deployed rootkits on Linux systems.###
+APT41 used a compromised account to create a scheduled task on a system.###
+APT41 used compiled HTML (.chm) files for targeting.###
+APT41 has used rundll32.exe to execute a loader.###
+APT41 leveraged code-signing certificates to sign malware when targeting both gaming and non-gaming organizations.###
+APT41 gained access to production environments where they could inject malicious code into legitimate, signed files and widely distribute them to end users.###
+APT41 collected MAC addresses from victim machines.###
+APT41 used the netstat command as part of network reconnaissance. The group has also used a malware variant, HIGHNOON, to enumerate active RDP sessions.###
+APT41 used the WMIEXEC utility to execute whoami commands on remote machines.###
+APT41 used Net to execute a system service installed to launch a Cobalt Strike BEACON loader.###
+APT41 used compromised credentials to log on to other systems.###
+APT41 used legitimate websites for C2 through dead drop resolvers (DDR), including GitHub, Pastebin, and Microsoft TechNet.###
+APT41 used WMI in several ways, including for execution of commands via WMIEXEC as well as for persistence via PowerSploit.###

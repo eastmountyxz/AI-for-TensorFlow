@@ -1,0 +1,31 @@
+APT33 is a suspected Iranian threat group that has carried out operations since at least 2013. The group has targeted organizations across multiple industries in the United States, Saudi Arabia, and South Korea, with a particular interest in the aviation and energy sectors.  ###
+APT33 has used HTTP for command and control.###
+APT33 has used WinRAR to compress data prior to exfil.###
+APT33 has deployed a tool known as DarkComet to the Startup folder of a victim, and used Registry run keys to gain persistence.###
+APT33 has used password spraying to gain access to target systems.###
+APT33 has utilized PowerShell to download files from the C2 server and run various scripts. ###
+APT33 has used VBScript to initiate the delivery of payloads.###
+APT33 has used a variety of publicly available tools like LaZagne to gather credentials.###
+APT33 has used a variety of publicly available tools like LaZagne to gather credentials.###
+APT33 has used base64 to encode command and control traffic.###
+APT33 has used AES for encryption of command and control traffic.###
+APT33 has attempted to use WMI event subscriptions to establish persistence on compromised hosts.###
+APT33 has used FTP to exfiltrate files (separately from the C2 channel).###
+APT33 has attempted to exploit a known vulnerability in WinRAR (CVE-2018-20250), and attempted to gain remote code execution via a security bypass vulnerability (CVE-2017-11774).###
+APT33 has used a publicly available exploit for CVE-2017-0213 to escalate privileges on a local system.###
+APT33 has downloaded additional files and programs from its C2 server.###
+APT33 has used SniffPass to collect credentials by sniffing network traffic.###
+APT33 has used HTTP over TCP ports 808 and 880 for command and control.###
+APT33 has used base64 to encode payloads.###
+APT33 has used a variety of publicly available tools like LaZagne, Mimikatz, and ProcDump to dump credentials.###
+APT33 has used a variety of publicly available tools like LaZagne to gather credentials.###
+APT33 has used a variety of publicly available tools like LaZagne to gather credentials.###
+APT33 has sent spearphishing emails containing links to .hta files.###
+APT33 has sent spearphishing e-mails with archive attachments.###
+APT33 has created a scheduled task to execute a .vbe file multiple times a day.###
+APT33 has used a variety of publicly available tools like LaZagne to gather credentials.###
+APT33 has used a variety of publicly available tools like Gpppassword to gather credentials.###
+APT33 has lured users to click links to malicious HTML applications delivered via spearphishing emails.###
+APT33 has used malicious e-mail attachments to lure victims into executing malware.###
+APT33 has used valid accounts for initial access and privilege escalation.###
+APT33 has used compromised Office 365 accounts in tandem with Ruler in an attempt to gain control of endpoints.###

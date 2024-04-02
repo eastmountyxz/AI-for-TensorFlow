@@ -1,0 +1,7 @@
+Ajax Security Team is a group that has been active since at least 2010 and believed to be operating out of Iran. By 2014 Ajax Security Team transitioned from website defacement operations to malware-based cyber espionage campaigns targeting the US defense industrial base and Iranian users of anti-censorship technologies.###
+Ajax Security Team has used FireMalv custom-developed malware, which collected passwords from the Firefox browser storage.###
+Ajax Security Team has used Wrapper/Gholee, custom-developed malware, which downloaded additional malware to the infected system.###
+Ajax Security Team has used CWoolger and MPK, custom-developed malware, which recorded all keystrokes on an infected system.###
+Ajax Security Team has used personalized spearphishing attachments.###
+Ajax Security Team has used various social media channels to spearphish victims.###
+Ajax Security Team has lured victims into executing malicious files.###

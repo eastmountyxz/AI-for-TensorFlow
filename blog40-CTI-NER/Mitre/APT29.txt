@@ -1,0 +1,76 @@
+APT29 is threat group that has been attributed to Russia's Foreign Intelligence Service (SVR). They have operated since at least 2008, often targeting government networks in Europe and NATO member countries, research institutes, and think tanks. APT29 reportedly compromised the Democratic National Committee starting in the summer of 2015.###
+In April 2021, the US and UK governments attributed the SolarWinds supply chain compromise cyber operation to the SVR; public statements included citations to APT29, Cozy Bear, and The Dukes. Victims of this campaign included government, consulting, technology, telecom, and other organizations in North America, Europe, Asia, and the Middle East. Industry reporting referred to the actors involved in this campaign as UNC2452, NOBELIUM, StellarParticle, and Dark Halo.###
+APT29 has bypassed UAC.###
+APT29 obtained a list of users and their roles from an Exchange server using Get-ManagementRoleAssignment.###
+APT29 added their own devices as allowed IDs for active sync using Set-CASMailbox, allowing it to obtain copies of victim mailboxes. It also added additional permissions (such as Mail.Read and Mail.ReadWrite) to compromised Application or Service Principals.###
+APT29 has added credentials to OAuth Applications and Service Principals.###
+APT29 has registered algorithmically generated Twitter handles that are used for C2 by malware, such as HAMMERTOSS.###
+APT29 has acquired C2 domains through resellers.###
+APT29 has used HTTP for C2 and data exfiltration.###
+APT29 used 7-Zip to compress stolen emails into password-protected archives prior to exfiltration.###
+APT29 added Registry Run keys to establish persistence.###
+APT29 drops a Windows shortcut file for execution.###
+APT29 has used encoded PowerShell scripts uploaded to CozyCar installations to download and install SeaDuke. APT29 also used PowerShell to create new tasks on remote machines, identify configuration settings, evade defenses, exfiltrate data, and to execute other commands..###
+APT29 has developed malware variants written in Python.###
+APT29 used cmd.exe to execute commands on remote machines.###
+APT29 has compromised domains to use for C2.###
+APT29 used account credentials they obtained to attempt access to Group Managed Service Account (gMSA) passwords.###
+APT29 has extracted files from compromised networks.###
+APT29 has used steganography to hide C2 communications in images.###
+APT29 staged data and files in password-protected archives on a victim's OWA server.###
+APT29 used 7-Zip to decode its Raindrop malware.###
+APT29 has created self-signed digital certificates to enable mutual TLS authentication for malware.###
+APT29 developed SUNSPOT, SUNBURST, TEARDROP, and Raindrop; SUNSPOT and SUNBURST were tailored to be incorporated into SolarWind's Orion software library.###
+APT29 changed domain federation trust settings using Azure AD administrative permissions to configure the domain to accept authorization tokens signed by their own SAML signing certificate.###
+APT29 used the Get-AcceptedDomain PowerShell cmdlet to enumerate accepted domains through an Exchange Management Shell. They also used AdFind to enumerate domains and to discover trust between federated domains.###
+APT29 used dynamic DNS resolution to construct and resolve to randomly-generated subdomains for C2.###
+APT29 collected emails from specific individuals, such as executives and IT staff, using New-MailboxExportRequest followed by Get-MailboxExportRequest.###
+APT29 used sticky-keys to obtain unauthenticated, privileged console access.###
+APT29 has used WMI event subscriptions for persistence.###
+APT29 has exfiltrated collected data over a simple HTTPS request to a password-protected archive staged on a victim's OWA servers.###
+APT29 has exploited CVE-2019-19781 for Citrix, CVE-2019-11510 for Pulse Secure VPNs, CVE-2018-13379 for FortiGate VPNs, and CVE-2019-9670 in Zimbra software to gain access. They have also exploited CVE-2020-0688 against the Microsoft Exchange Control Panel to regain access to a network.###
+APT29 has used multiple software exploits for common client software, like Microsoft Word and Adobe Reader, to gain code execution as part of.###
+APT29 has used compromised identities to access VPNs and remote access tools.###
+APT29 obtained information about the configured Exchange virtual directory using Get-WebServicesVirtualDirectory.###
+APT29 created tokens using compromised SAML signing certificates.###
+APT29 has bypassed MFA set on OWA accounts by generating a cookie value from a previously stolen secret key.###
+APT29 used AUDITPOL to prevent the collection of audit logs.###
+APT29 used netsh to configure firewall rules that limited certain UDP outbound packets.###
+APT29 used the service control manager on a remote system to disable services associated with security monitoring products.###
+APT29 removed evidence of email export requests using Remove-MailboxExportRequest. They temporarily replaced legitimate utilities with their own, executed their payload, and then restored the original file.###
+APT29 routinely removed their tools, including custom backdoors, once remote access was achieved. APT29 has also used SDelete to remove artifacts from victims.###
+APT29 modified timestamps of backdoors to match legitimate Windows files.###
+APT29 has downloaded additional tools, such as TEARDROP malware and Cobalt Strike, to a compromised host following initial access.###
+APT29 has set the hostnames of its C2 infrastructure to match legitimate hostnames in the victim environment. They have also used IP addresses originating from the same country as the victim for their VPN infrastructure.###
+APT29 renamed a version of AdFind to sqlceip.exe or csrss.exe in an attempt to appear as the SQL Server Telemetry Client or Client Service Runtime Process, respectively.###
+APT29 named tasks \Microsoft\Windows\SoftwareProtectionPlatform\EventCacheManager in order to appear legitimate.###
+APT29 has used TCP for C2 communications.###
+APT29 has used encoded PowerShell commands.###
+APT29 used UPX to pack files.###
+APT29 leveraged privileged accounts to replicate directory service data with domain controllers.###
+APT29 used the Get-ManagementRoleAssignment PowerShell cmdlet to enumerate Exchange management role assignments through an Exchange Management Shell.###
+APT29 has used spearphishing emails with an attachment to deliver files with exploits to initial victims.###
+APT29 has used spearphishing with a link to trick victims into clicking on a link to a zip file containing malicious files.###
+APT29 has used multiple command-line utilities to enumerate running processes.###
+A backdoor used by APT29 created a Tor hidden service to forward traffic from the Tor client to local ports 3389 (RDP), 139 (Netbios), and 445 (SMB) enabling full remote access from outside the network.###
+APT29 has used the meek domain fronting plugin for Tor to hide the destination of C2 traffic.###
+APT29 configured at least one instance of Cobalt Strike to use a network pipe over SMB during the 2020 SolarWinds intrusion.###
+APT29 has used WinRM via PowerShell to execute command and payloads on remote hosts.###
+APT29 has used AdFind to enumerate remote systems.###
+APT29 used scheduler and schtasks to create new tasks on remote hosts as part of lateral movement. They have manipulated scheduled tasks by updating an existing legitimate task to execute their tools and then returned the scheduled task to its original configuration. APT29 also created a scheduled task to maintain SUNSPOT persistence when the host booted during the 2020 SolarWinds intrusion. They previously used named and hijacked scheduled tasks to also establish persistence.###
+APT29 has used Rundll32.exe to execute payloads.###
+APT29 obtained Ticket Granting Service (TGS) tickets for Active Directory Service Principle Names to crack offline.###
+APT29 was able to get SUNBURST signed by SolarWinds code signing certificates by injecting the malware into the SolarWinds Orion software lifecycle.###
+APT29 gained initial network access to some victims via a trojanized update of SolarWinds Orion software.###
+APT29 used fsutil to check available free space before executing actions that might create large files on disk.###
+APT29 has used GoldFinder to perform HTTP GET requests to check internet connectivity and identify HTTP proxy servers and other redirectors that an HTTP request travels through.###
+APT29 obtained the private encryption key from an Active Directory Federation Services (AD FS) container to decrypt corresponding SAML signing certificates.###
+APT29 used forged SAML tokens that allowed the actors to impersonate users and bypass MFA, enabling APT29 to access enterprise cloud applications and services.###
+APT29 used Kerberos ticket attacks for lateral movement.###
+APT29 used a forged duo-sid cookie to bypass MFA set on an email account.###
+APT29 has used various forms of spearphishing attempting to get a user to open attachments, including, but not limited to, malicious Microsoft Word documents, .pdf, and .lnk files.  ###
+APT29 has used various forms of spearphishing attempting to get a user to click on a malicous link.###
+APT29 used different compromised credentials for remote access and to move laterally.###
+APT29 has used valid accounts, including administrator accounts, to help facilitate lateral movement on compromised networks.###
+APT29 has used social media platforms to hide communications to C2 servers.###
+APT29 used WMI to steal credentials and execute backdoors at a future time. They have also used WMI for the remote execution of files for lateral movement.###

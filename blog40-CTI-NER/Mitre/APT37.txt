@@ -1,0 +1,28 @@
+APT37 is a suspected North Korean cyber espionage group that has been active since at least 2012. The group has targeted victims primarily in South Korea, but also in Japan, Vietnam, Russia, Nepal, China, India, Romania, Kuwait, and other parts of the Middle East. APT37 has also been linked to following campaigns between 2016-2018: Operation Daybreak, Operation Erebus, Golden Time, Evil New Year, Are you Happy?, FreeMilk, Northern Korean Human Rights, and Evil New Year 2018.   ###
+North Korean group definitions are known to have significant overlap, and the name Lazarus Group is known to encompass a broad range of activity. Some organizations use the name Lazarus Group to refer to any activity attributed to North Korea. Some organizations track North Korean clusters or groups such as Bluenoroff, APT37, and APT38 separately, while other organizations may track some activity associated with those group names by the name Lazarus Group.###
+APT37 has a function in the initial dropper to bypass Windows UAC in order to execute the next payload with higher privileges.###
+APT37 uses HTTPS to conceal C2 communications.###
+APT37 has used an audio capturing utility known as SOUNDWAVE that captures microphone input.###
+APT37's has added persistence via the Registry key HKCU\Software\Microsoft\CurrentVersion\Run\.###
+APT37 has used the command-line interface.###
+APT37 executes shellcode and a VBA script to decode Base64 strings.###
+APT37 has used a credential stealer known as ZUMKONG that can harvest usernames and passwords stored in browsers.###
+APT37 has collected data from victims' local systems.###
+APT37 has access to destructive malware that is capable of overwriting a machine's Master Boot Record (MBR).###
+APT37 has used strategic web compromises, particularly of South Korean websites, to distribute malware. The group has also used torrent file-sharing sites to more indiscriminately disseminate malware to victims. As part of their compromises, the group has used a Javascript based profiler called RICECURRY to profile a victim's web browser and deliver malicious code accordingly.###
+APT37 has used Flash Player (CVE-2016-4117, CVE-2018-4878) and Word (CVE-2017-0199) exploits for execution.###
+APT37 has downloaded second stage malware from compromised websites.###
+APT37 has used Windows DDE for execution of commands and a malicious VBS.###
+APT37 has signed its malware with an invalid digital certificates listed as "Tencent Technology (Shenzhen) Company Limited."###
+APT37 leverages the Windows API calls: VirtualAlloc(), WriteProcessMemory(), and CreateRemoteThread() for process injection.###
+APT37 obfuscates strings and payloads.###
+APT37 uses steganography to send images to users that are embedded with shellcode.###
+APT37 has a Bluetooth device harvester, which uses Windows Bluetooth APIs to find information on connected Bluetooth devices. ###
+APT37 delivers malware using spearphishing emails with malicious HWP attachments.###
+APT37's Freenki malware lists running processes using the Microsoft Windows API.###
+APT37 injects its malware variant, ROKRAT, into the cmd.exe process.###
+APT37 collects the computer name, the BIOS model, and execution path.###
+APT37 identifies the victim username.###
+APT37 has used malware that will issue the command shutdown /r /t 1 to reboot a system after wiping its MBR.###
+APT37 has sent spearphishing attachments attempting to get a user to open them.###
+APT37 leverages social networking sites and cloud platforms (AOL, Twitter, Yandex, Mediafire, pCloud, Dropbox, and Box) for C2.###

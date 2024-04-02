@@ -1,0 +1,21 @@
+APT38 is a financially-motivated threat group that is backed by the North Korean regime. The group mainly targets banks and financial institutions and has targeted more than 16 organizations in at least 13 countries since at least 2014.###
+North Korean group definitions are known to have significant overlap, and the name Lazarus Group is known to encompass a broad range of activity. Some organizations use the name Lazarus Group to refer to any activity attributed to North Korea. Some organizations track North Korean clusters or groups such as Bluenoroff, APT37, and APT38 separately, while other organizations may track some activity associated with those group names by the name Lazarus Group.###
+APT38 used a backdoor, QUICKRIDE, to communicate to the C2 server over HTTP and HTTPS.###
+APT38 used a Trojan called KEYLIME to collect data from the clipboard.###
+APT38 has used a command-line tunneler, NACHOCHEESE, to give them shell access to a victim’s machine.###
+APT38 has used a custom secure delete function to make deleted files unrecoverable.###
+APT38 has used Hermes ransomware to encrypt files with AES256.###
+APT38 has used DYEPACK.FOX to manipulate PDF data as it is accessed to remove traces of fraudulent SWIFT transactions from the data displayed to the end user.###
+APT38 has used DYEPACK to manipulate SWIFT messages en route to a printer.###
+APT38 has used DYEPACK to create, delete, and alter records in databases used for SWIFT transactions.###
+APT38 has used a custom MBR wiper named BOOTWRECK to render systems inoperable.###
+APT38 has conducted watering holes schemes to gain initial access to victims.###
+APT38 has used a utility called CLOSESHAVE that can securely delete a file from the system.###
+APT38 clears Window Event logs and Sysmon logs from the system.###
+APT38 used a backdoor, NESTEGG, that has the capability to download and upload files to and from a victim’s machine.###
+APT38 used a Trojan called KEYLIME to capture keystrokes from the victim’s machine.###
+APT38 uses a tool called CLEANTOAD that has the capability to modify Registry keys.###
+APT38 has used several code packing methods such as Themida, Enigma, VMProtect, and Obsidium, to pack their implants.###
+APT38 leveraged Sysmon to understand the processes, services in the organization.###
+APT38 installed a port monitoring tool, MAPMAKER, to print the active TCP connections on the local system.###
+APT38 has used a custom MBR wiper named BOOTWRECK, which will initiate a system reboot after wiping the victim's MBR.###

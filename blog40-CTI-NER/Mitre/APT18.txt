@@ -1,0 +1,13 @@
+APT18 is a threat group that has operated since at least 2009 and has targeted a range of industries, including technology, manufacturing, human rights groups, government, and medical. ###
+APT18 uses HTTP for C2 communications.###
+APT18 uses DNS for C2 communications.###
+APT18 establishes persistence via the HKCU\Software\Microsoft\Windows\CurrentVersion\Run key.###
+APT18 uses cmd.exe to execute commands on the victim’s machine.###
+APT18 actors leverage legitimate credentials to log into external remote services.###
+APT18 can list files information for specific directories.###
+APT18 actors deleted tools and batch files from victim systems.###
+APT18 can upload a file to the victim’s machine.###
+APT18 obfuscates strings in the payload.###
+APT18 actors used the native at Windows task scheduler tool to use scheduled tasks for execution on a victim network.###
+APT18 can collect system information from the victim’s machine.###
+APT18 actors leverage legitimate credentials to log into external remote services.###

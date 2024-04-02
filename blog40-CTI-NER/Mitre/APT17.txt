@@ -1,0 +1,3 @@
+APT17 is a China-based threat group that has conducted network intrusions against U.S. government entities, the defense industry, law firms, information technology companies, mining companies, and non-government organizations. ###
+APT17 has created profile pages in Microsoft TechNet that were used as C2 infrastructure.###
+APT17 has created and cultivated profile pages in Microsoft TechNet. To make profile pages appear more legitimate, APT17 has created biographical sections and posted in forum threads.###

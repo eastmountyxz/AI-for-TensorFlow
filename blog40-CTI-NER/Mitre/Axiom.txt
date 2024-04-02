@@ -1,0 +1,7 @@
+Axiom is a cyber espionage group suspected to be associated with the Chinese government. It is responsible for the Operation SMN campaign.  Though both this group and Winnti Group use the malware Winnti for Windows, the two groups appear to be distinct based on differences in reporting on the groups' TTPs and targeting.   ###
+The Axiom group has used other forms of obfuscation, include commingling legitimate traffic with communications traffic so that network streams appear legitimate.###
+Some malware that has been used by Axiom also uses steganography to hide communication in PNG image files.###
+Axiom actors have been known to use the Sticky Keys replacement within RDP sessions to obtain persistence.###
+Axiom has been observed using SQL injection to gain access to systems.###
+Axiom has been known to dump credentials.###
+The Axiom group is known to have used RDP during operations.###
