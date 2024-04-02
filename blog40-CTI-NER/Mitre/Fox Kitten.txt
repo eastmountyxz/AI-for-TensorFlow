@@ -1,0 +1,41 @@
+Fox Kitten is threat actor with a suspected nexus to the Iranian government that has been active since at least 2017 against entities in the Middle East, North Africa, Europe, Australia, and North America. Fox Kitten has targeted multiple industrial verticals including oil and gas, technology, government, defense, healthcare, manufacturing, and engineering.###
+Fox Kitten has accessed ntuser.dat and UserClass.dat on compromised hosts.###
+Fox Kitten has used the Softerra LDAP browser to browse documentation on service accounts.###
+Fox Kitten has used 7-Zip to archive data.###
+Fox Kitten has used Google Chrome bookmarks to identify internal resources and assets.###
+Fox Kitten has brute forced RDP credentials.###
+Fox Kitten has used a Perl reverse shell to communicate with C2.###
+Fox Kitten has used cmd.exe likely as a password changing mechanism.###
+Fox Kitten has used PowerShell scripts to access credential data.###
+Fox Kitten has created a local user account with administrator privileges.###
+Fox Kitten has used scripts to access credential information from the KeePass database.###
+Fox Kitten has obtained files from the victim's cloud storage instances.###
+Fox Kitten has accessed victim security and IT environments and Microsoft Teams to mine valuable information.###
+Fox Kitten has searched local system resources to access sensitive documents.###
+Fox Kitten has searched network shares to access sensitive documents.###
+Fox Kitten has created KeyBase accounts to communicate with ransomware victims.###
+Fox Kitten has used a Twitter account to communicate with ransomware victims.###
+Fox Kitten has used sticky keys to launch a command prompt.###
+Fox Kitten has exploited known vulnerabilities in Fortinet, PulseSecure, and Palo Alto VPN appliances.###
+Fox Kitten has exploited known vulnerabilities in remote services including RDP.###
+Fox Kitten has used WizTree to obtain network files and directory listings.###
+Fox Kitten has downloaded additional tools including PsExec directly to endpoints.###
+Fox Kitten has named binaries and configuration files svhost and dllhost respectively to appear legitimate.###
+Fox Kitten has named the task for a reverse proxy lpupdate to appear legitimate.###
+Fox Kitten has used tools including NMAP to conduct broad scanning to identify open ports.###
+Fox Kitten has base64 encoded scripts and payloads to avoid detection.###
+Fox Kitten has used prodump to dump credentials from LSASS.###
+Fox Kitten has used Volume Shadow Copy to access credential information from NTDS.###
+Fox Kitten has used protocol tunneling for communication and RDP activity on compromised hosts through the use of open source tools such as Ngrok and custom tool SSHMinion.###
+Fox Kitten has used the open source reverse proxy tools including FRPC and Go Proxy to establish connections from C2 to local servers.###
+Fox Kitten has accessed Registry hives ntuser.dat and UserClass.dat.###
+Fox Kitten has used RDP to log in and move laterally in the target environment.###
+Fox Kitten has used valid accounts to access SMB shares.###
+Fox Kitten has used the PuTTY and Plink tools for lateral movement.###
+Fox Kitten has installed TightVNC server and client on compromised servers and endpoints for lateral movement.###
+Fox Kitten has used Angry IP Scanner to detect remote systems.###
+Fox Kitten has used Scheduled Tasks for persistence and to load and execute a reverse proxy binary.###
+Fox Kitten has installed web shells on compromised hosts to maintain access.###
+Fox Kitten has accessed files to gain valid credentials.###
+Fox Kitten has used valid credentials with various services during lateral movement.###
+Fox Kitten has used Amazon Web Services to host C2.###

@@ -1,0 +1,26 @@
+Frankenstein is a campaign carried out between January and April 2019 by unknown threat actors. The campaign name comes from the actors' ability to piece together several unrelated components.###
+Frankenstein has enumerated hosts via Empire, gathering the username, domain name, machine name, and other system information.###
+Frankenstein has collected information via Empire, which is automatically sent the data back to the adversary's C2.###
+Frankenstein has used PowerShell to run a series of base64-encoded commands, that acted as a stager and enumerated hosts.###
+Frankenstein has run a command script to set up persistence as a scheduled task named "WinUpdate", as well as other encoded commands from the command-line.###
+Frankenstein has used Word documents that prompts the victim to enable macros and run a Visual Basic script.###
+Frankenstein has enumerated hosts via Empire, gathering various local system information.###
+Frankenstein has deobfuscated base64-encoded commands following the execution of a malicious script, which revealed a small script designed to obtain an additional payload.###
+Frankenstein has communicated with a C2 via an encrypted RC4 byte stream and AES-CBC.###
+Frankenstein has collected information via Empire, which is automatically sent the data back to the adversary's C2.###
+Frankenstein has used CVE-2017-11882 to execute code on the victim's machine.###
+Frankenstein has uploaded and downloaded files to utilize additional plugins.###
+Frankenstein has run encoded commands from the command line.###
+Frankenstein has harvested credentials from the victim's machine using Empire.###
+Frankenstein has used spearphishing emails to send trojanized Microsoft Word documents.###
+Frankenstein has enumerated hosts, looking to obtain a list of all currently running processes.###
+Frankenstein has established persistence through a scheduled task using the command:  /Create /F /SC DAILY /ST 09:00 /TN WinUpdate /TR , named "WinUpdate".###
+Frankenstein has used WMI queries to detect if virtualization environments or analysis tools were running on the system.###
+Frankenstein has enumerated hosts, looking for the system's machine name.###
+Frankenstein has enumerated hosts, looking for the public IP address of the system.###
+Frankenstein has enumerated hosts, gathering username, machine name, and administrative permissions information.###
+Frankenstein has used trojanized documents that retrieve remote templates from an adversary-controlled website.###
+Frankenstein has used MSbuild to execute an actor-created file.###
+Frankenstein has used trojanized Microsoft Word documents sent via email, which prompted the victim to enable macros.###
+Frankenstein has used WMI queries to check if various security applications were running, including VMWare and Virtualbox.###
+Frankenstein has used WMI queries to check if various security applications were running, as well as the operating system version.###

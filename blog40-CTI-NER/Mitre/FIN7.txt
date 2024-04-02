@@ -1,0 +1,25 @@
+FIN7 is a financially-motivated threat group that has primarily targeted the U.S. retail, restaurant, and hospitality sectors since mid-2015. They often use point-of-sale malware. A portion of FIN7 was run out of a front company called Combi Security. FIN7 is sometimes referred to as Carbanak Group, but these appear to be two groups using the same Carbanak malware and are therefore tracked separately.    ###
+FIN7 has performed C2 using DNS via A, OPT, and TXT records.###
+FIN7 malware has created Registry Run and RunOnce keys to establish persistence, and has also added items to the Startup folder.###
+FIN7 used SQL scripts to help perform tasks on the victim's machine.###
+FIN7 used a PowerShell script to launch shellcode that retrieved an additional payload.###
+FIN7 used the command prompt to launch commands on the victim’s machine.###
+FIN7 used VBS scripts to help perform tasks on the victim's machine.###
+FIN7 used JavaScript scripts to help perform tasks on the victim's machine.###
+FIN7 created new Windows services and added them to the startup directories for persistence.###
+FIN7 has developed malware for use in operations, including the creation of infected removable media.###
+FIN7 has used application shim databases for persistence.###
+FIN7 has downloaded additional malware to execute on the victim's machine, including by using a PowerShell script to launch shellcode that retrieves an additional payload.###
+FIN7 spear phishing campaigns have included malicious Word documents with DDE execution.###
+FIN7 has created a scheduled task named "AdobeFlashSync" to establish persistence.###
+FIN7 has used port-protocol mismatches on ports such as 53, 80, 443, and 8080 during C2.###
+FIN7 has used fragmented strings, environment variables, standard input (stdin), and native character-replacement functionalities to obfuscate commands.###
+FIN7 sent spearphishing emails with either malicious Microsoft Documents or RTF files attached.###
+FIN7 malware has created scheduled tasks to establish persistence.###
+FIN7 captured screenshots and desktop video recordings.###
+FIN7 has used mshta.exe to execute VBScript to execute malicious code on victim systems.###
+FIN7 has signed Carbanak payloads with legally purchased code signing certificates. FIN7 has also digitally signed their phishing documents, backdoors and other staging tools to bypass security controls.###
+FIN7 lured victims to double-click on images in the attachments they sent which would then execute the hidden LNK file.###
+FIN7 created a custom video recording capability that could be used to monitor operations in the victim's environment.###
+FIN7 used images embedded into document lures that only activate the payload when a user double clicks to avoid sandboxes.###
+FIN7 used legitimate services like Google Docs, Google Scripts, and Pastebin for C2.###

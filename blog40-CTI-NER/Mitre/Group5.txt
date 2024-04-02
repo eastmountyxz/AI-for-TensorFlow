@@ -1,0 +1,5 @@
+Group5 is a threat group with a suspected Iranian nexus, though this attribution is not definite. The group has targeted individuals connected to the Syrian opposition via spearphishing and watering holes, normally using Syrian and Iranian themes. Group5 has used two commonly available remote access tools (RATs), njRAT and NanoCore, as well as an Android RAT, DroidJack. ###
+Malware used by Group5 is capable of remotely deleting files from victims.###
+Malware used by Group5 is capable of capturing keystrokes.###
+Group5 disguised its malicious binaries with several layers of obfuscation, including encrypting the files.###
+Malware used by Group5 is capable of watching the victim's screen.###

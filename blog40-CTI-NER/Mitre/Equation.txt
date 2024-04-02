@@ -1,0 +1,5 @@
+Equation is a sophisticated threat group that employs multiple remote access tools. The group is known to use zero-day exploits and has developed the capability to overwrite the firmware of hard disk drives. ###
+Equation has been observed utilizing environmental keying in payload delivery.###
+Equation has used an encrypted virtual file system stored in the Windows Registry.###
+Equation has used tools with the functionality to search for specific information about the attached hard drive that could be used to identify and overwrite the firmware.###
+Equation is known to have the capability to overwrite the firmware on hard drives from some manufacturers.###

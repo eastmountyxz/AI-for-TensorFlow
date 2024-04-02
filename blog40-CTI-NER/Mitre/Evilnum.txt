@@ -1,0 +1,12 @@
+Evilnum is a financially motivated threat group that has been active since at least 2018.###
+Evilnum has used PowerShell to bypass UAC.###
+Evilnum has used malicious JavaScript files on the victim's machine.###
+Evilnum can collect email credentials from victims.###
+Evilnum has used the malware variant, TerraTV, to load a malicious DLL placed in the TeamViewer directory, instead of the original Windows DLL located in a system folder.###
+Evilnum has deleted files used during infection.###
+Evilnum can deploy additional components or tools as needed.###
+Evilnum has sent spearphishing emails containing a link to a zip file hosted on Google Drive.###
+EVILNUM has used the malware variant, TerraTV, to run a legitimate TeamViewer application to connect to compromrised machines.###
+Evilnum can steal cookies and session information from browsers.###
+Evilnum has sent spearphishing emails designed to trick the recipient into opening malicious shortcut links which downloads a .LNK file.###
+Evilnum has used a component called TerraLoader to check certain hardware and file information to detect sandboxed environments. ###

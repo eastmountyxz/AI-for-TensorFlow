@@ -1,0 +1,10 @@
+Elderwood is a suspected Chinese cyber espionage group that was reportedly responsible for the 2009 Google intrusion known as Operation Aurora.  The group has targeted defense organizations, supply chain manufacturers, human rights and nongovernmental organizations (NGOs), and IT service providers.  ###
+Elderwood has delivered zero-day exploits and malware to victims by injecting malicious code into specific public Web pages visited by targets within a particular sector.###
+Elderwood has used exploitation of endpoint software, including Microsoft Internet Explorer Adobe Flash vulnerabilities, to gain execution. They have also used zero-day exploits.###
+The Ritsol backdoor trojan used by Elderwood can download files onto a compromised host from a remote location.###
+Elderwood has encrypted documents and malicious executables.###
+Elderwood has packed malware payloads before delivery to victims.###
+Elderwood has delivered zero-day exploits and malware to victims via targeted emails containing a link to malicious content hosted on an uncommon Web server.###
+Elderwood has delivered zero-day exploits and malware to victims via targeted emails containing malicious attachments.###
+Elderwood has leveraged multiple types of spearphishing in order to attempt to get a user to open attachments.###
+Elderwood has leveraged multiple types of spearphishing in order to attempt to get a user to open links.###

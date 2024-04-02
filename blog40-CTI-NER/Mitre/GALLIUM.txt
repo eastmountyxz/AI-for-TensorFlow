@@ -1,0 +1,32 @@
+GALLIUM is a group that has been active since at least 2012, primarily targeting high-profile telecommunications networks. GALLIUM has been identified in some reporting as likely a Chinese state-sponsored group, based in part on tools used and TTPs commonly associated with Chinese threat actors.###
+GALLIUM has used Taiwan-based servers that appear to be exclusive to GALLIUM.###
+GALLIUM used WinRAR to compress and encrypt stolen data prior to exfiltration.###
+GALLIUM used PowerShell for execution to assist in lateral movement as well as for dumping credentials stored on compromised machines.###
+GALLIUM used the Windows command shell to execute commands.###
+GALLIUM created high-privileged domain user accounts to maintain access to victim networks.###
+GALLIUM collected data from the victim's local system, including password hashes from the SAM hive in the Registry.###
+GALLIUM compressed and staged files in multi-part archives in the Recycle Bin prior to exfiltration.###
+GALLIUM used Web shells and HTRAN for C2 and to exfiltrate data.###
+GALLIUM exploited a publicly-facing servers including Wildfly/JBoss servers to gain access to the network.###
+GALLIUM has used VPN services, including SoftEther VPN, to access and maintain persistence in victim environments.###
+GALLIUM used DLL side-loading to covertly load PoisonIvy into memory on the victim machine.###
+GALLIUM dropped additional tools to victims during their operation, including portqry.exe, a renamed cmd.exe file, winrar, and HTRAN.###
+GALLIUM has used PsExec to move laterally between hosts in the target network.###
+GALLIUM used a renamed cmd.exe file to evade detection.###
+GALLIUM used a modified version of HTRAN in which they obfuscated strings such as debug messages in an apparent attempt to evade detection.###
+GALLIUM packed some payloads using different types of packers, both known and custom.###
+GALLIUM ensured each payload had a unique hash, including by using different types of packers.###
+GALLIUM has used a variety of widely-available tools, which in some cases they modified to add functionality and/or subvert antimalware solutions.###
+GALLIUM used reg commands to dump specific hives from the Windows Registry, such as the SAM hive, and obtain password hashes.###
+GALLIUM used a modified version of Mimikatz along with a PowerShell-based Mimikatz to dump credentials on the victim machines.###
+GALLIUM used a modified version of HTRAN to redirect connections between networks.###
+GALLIUM used a modified version of NBTscan to identify available NetBIOS name servers over the network as well as ping to identify remote systems.###
+GALLIUM established persistence for PoisonIvy by created a scheduled task.###
+GALLIUM used Web shells to persist in victim environments and assist in execution and exfiltration.###
+GALLIUM has used stolen certificates to sign its tools including those from Whizzimo LLC.###
+GALLIUM used ipconfig /all to obtain information about the victim network configuration. The group also ran a modified version of NBTscan to identify available NetBIOS name servers.###
+GALLIUM used netstat -oan to obtain information about the victim network connections.###
+GALLIUM used whoami and query user to obtain information about the victim user.###
+GALLIUM used dumped hashes to authenticate to other machines via pass the hash.###
+GALLIUM leveraged valid accounts to maintain access to a victim network.###
+GALLIUM used WMI for execution to assist in lateral movement as well as for installing tools across multiple assets.###

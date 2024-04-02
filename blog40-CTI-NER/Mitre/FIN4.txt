@@ -1,0 +1,13 @@
+FIN4 is a financially-motivated threat group that has targeted confidential information related to the public financial market, particularly regarding healthcare and pharmaceutical companies, since at least 2013. FIN4 is unique in that they do not infect victims with typical persistent malware, but rather they focus on capturing credentials authorized to access email and other non-public correspondence.###
+FIN4 has used HTTP POST requests to transmit data.###
+FIN4 has used VBA macros to display a dialog box and collect victim credentials.###
+FIN4 has created rules in victims' Microsoft Outlook accounts to automatically delete emails containing words such as "hacked," "phish," and "malware" in a likely attempt to prevent organizations from communicating about their activities.###
+FIN4 has accessed and hijacked online email communications using stolen credentials.###
+FIN4 has presented victims with spoofed Windows Authentication prompts to collect their credentials.###
+FIN4 has captured credentials via fake Outlook Web App (OWA) login pages and has also used a .NET based keylogger.###
+FIN4 has used spearphishing emails containing attachments (which are often stolen, legitimate documents sent from compromised accounts) with embedded malicious macros.###
+FIN4 has used spearphishing emails (often sent from compromised accounts) containing malicious links.###
+FIN4 has used Tor to log in to victims' email accounts.###
+FIN4 has lured victims to launch malicious attachments delivered via spearphishing emails (often sent from compromised accounts).###
+FIN4 has lured victims to click malicious links delivered via spearphishing emails (often sent from compromised accounts).###
+FIN4 has used legitimate credentials to hijack email communications.###

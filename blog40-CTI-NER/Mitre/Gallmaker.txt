@@ -1,0 +1,7 @@
+Gallmaker is a cyberespionage group that has targeted victims in the Middle East and has been active since at least December 2017. The group has mainly targeted victims in the defense, military, and government sectors.###
+Gallmaker has used WinZip, likely to archive data prior to exfiltration.###
+Gallmaker used PowerShell to download additional payloads and for execution.###
+Gallmaker attempted to exploit Microsoft’s DDE protocol in order to gain access to victim machines and for execution.###
+Gallmaker obfuscated shellcode used during execution.###
+Gallmaker sent emails with malicious Microsoft Office documents attached.###
+Gallmaker sent victims a lure document with a warning that asked victims to "enable content" for execution.###

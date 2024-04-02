@@ -1,0 +1,40 @@
+FIN6 is a cyber crime group that has stolen payment card data and sold it for profit on underground marketplaces. This group has aggressively targeted and compromised point of sale (PoS) systems in the hospitality and retail sectors.###
+FIN6 has used has used Metasploit’s named-pipe impersonation technique to escalate privileges.###
+FIN6 has used Metasploit’s PsExec NTDSGRAB module to obtain a copy of the victim's Active Directory database.###
+Following data collection, FIN6 has compressed log files into a ZIP archive prior to staging and exfiltration.###
+FIN6 has encoded data gathered from the victim with a simple substitution cipher and single-byte XOR using the 0xAA key, and Base64 with character permutation.###
+FIN6 has used a script to iterate through a list of compromised PoS systems, copy and remove data to a log file, and to bind to events from the submit payment button.###
+FIN6 has used Registry Run keys to establish persistence for its downloader tools known as HARDTACK and SHIPBREAD.###
+FIN6 has extracted password hashes from ntds.dit to crack offline.###
+FIN6 has used scripting to iterate through a list of compromised PoS systems, copy data to a log file, and remove the original data files.###
+FIN6 has used PowerShell to gain access to merchant's networks, and a Metasploit PowerShell module to download and execute shellcode and to set up a local listener.###
+FIN6 has used malicious JavaScript to steal payment card data from e-commerce sites.###
+FIN6 has used kill.bat script to disable security tools.###
+FIN6 has used the Stealer One credential stealer to target e-mail and file transfer utilities including FTP.###
+FIN6 has used the Stealer One credential stealer to target web browsers.###
+FIN6 has collected schemas and user accounts from systems running SQL Server.###
+FIN6 has collected and exfiltrated payment card data from compromised systems.###
+FIN6 actors have compressed data from remote systems and moved it to another staging system before exfiltration.###
+FIN6 used the Plink command-line utility to create SSH tunnels to C2 servers.###
+FIN6 has sent stolen payment card data to remote servers via HTTP POSTs.###
+FIN6 has used tools to exploit Windows vulnerabilities in order to escalate privileges. The tools targeted CVE-2013-3660, CVE-2011-2005, and CVE-2010-4398, all of which could allow local users to access kernel-level privileges.###
+FIN6 has deployed a utility script named kill.bat to disable anti-virus.###
+FIN6 has removed files from victim machines.###
+FIN6 has renamed the "psexec" service name to "mstdc" to masquerade as a legitimate Windows service.###
+FIN6 used publicly available tools (including Microsoft's built-in SQL querying tool, osql.exe) to map the internal network and conduct reconnaissance against Active Directory, Structured Query Language (SQL) servers, and NetBIOS.###
+FIN6 has used Metasploit Bind and Reverse TCP stagers.###
+FIN6 has used encoded PowerShell commands.###
+FIN6 has used Windows Credential Editor for credential dumping.###
+FIN6 has used Metasploit’s PsExec NTDSGRAB module to obtain a copy of the victim's Active Directory database.###
+FIN6 has used fake job advertisements sent via LinkedIn to spearphish targets.###
+FIN6 has targeted victims with e-mails containing malicious attachments.###
+FIN6 used the Plink command-line utility to create SSH tunnels to C2 servers.###
+FIN6 used RDP to move laterally in victim networks.###
+FIN6 used publicly available tools (including Microsoft's built-in SQL querying tool, osql.exe) to map the internal network and conduct reconnaissance against Active Directory, Structured Query Language (SQL) servers, and NetBIOS.###
+FIN6 has used scheduled tasks to establish persistence for various malware it uses, including downloaders known as HARDTACK and SHIPBREAD and FrameworkPOS.###
+FIN6 has used Comodo code-signing certificates.###
+FIN6 has created Windows services to execute encoded PowerShell commands.###
+FIN6 has used malicious documents to lure victims into allowing execution of PowerShell scripts.###
+To move laterally on a victim network, FIN6 has used credentials stolen from various systems on which it gathered usernames and password hashes.###
+FIN6 has used Pastebin and Google Storage to host content for their operations.###
+FIN6 has used WMI to automate the remote execution of PowerShell scripts.###
