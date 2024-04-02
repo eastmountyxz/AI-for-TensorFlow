@@ -1,0 +1,9 @@
+Indrik Spider is a financially motivated threat group that has leveraged the Dridex banking trojan since at least June 2014 and delivered ransomware variants since 2017.###
+Indrik Spider has used PowerShell Empire for execution of malware.###
+Indrik Spider has used batch scripts on victim's machines.###
+Indrik Spider has served fake updates via legitimate websites that have been compromised.###
+Indrik Spider has encrypted domain-controlled systems using BitPaymer.###
+Indrik Spider has used Group Policy Objects to deploy batch scripts.###
+Indrik Spider has downloaded and installed the Dridex loader on compromised machines.###
+Indrik Spider used fake updates for FlashPlayer plugin and Google Chrome as initial infection vectors.###
+Indrik Spider has collected credentials from infected systems, including domain accounts.###

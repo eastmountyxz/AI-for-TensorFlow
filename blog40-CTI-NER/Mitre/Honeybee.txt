@@ -1,0 +1,22 @@
+Honeybee is a campaign led by an unknown actor that targets humanitarian aid organizations and has been active in Vietnam, Singapore, Argentina, Japan, Indonesia, and Canada. It has been an active operation since August of 2017 and as recently as February 2018. ###
+Honeybee uses a combination of NTWDBLIB.dll and cliconfg.exe to bypass UAC protections using DLL hijacking.###
+Honeybee uses FTP for command and control.###
+Honeybee adds collected files to a temp.zip file saved in the %temp% folder, then base64 encodes it and uploads it to control server.###
+Honeybee performs data exfiltration is accomplished through the following command-line command: from  (- --).txt.###
+Honeybee uses a batch file that configures the ComSysApp service to autostart in order to establish persistence.###
+Honeybee embeds a Visual Basic script within a malicious Word document as part of initial access; the script is executed when the Word document is opened.###
+Several commands are supported by the Honeybee's implant via the command-line interface and there’s also a utility to execute any custom command on an infected endpoint. Honeybee used batch scripting.###
+Honeybee has batch files that modify the system service COMSysApp to load a malicious DLL.###
+Honeybee collects data from the local victim system.###
+Honeybee adds collected files to a temp.zip file saved in the %temp% folder, then base64 encodes it and uploads it to control server.###
+Honeybee drops a Word file containing a Base64-encoded file in it that is read, decoded, and dropped to the disk by the macro.###
+Honeybee's service-based DLL implant can execute a downloaded file with parameters specified using CreateProcessAsUser.###
+Honeybee's service-based DLL implant traverses the FTP server’s directories looking for files with keyword matches for computer names or certain keywords.###
+Honeybee removes batch files to reduce fingerprint on the system as well as deletes the CAB file that gets encoded upon infection.###
+Honeybee uses a batch file that modifies Registry keys to launch a DLL into the svchost.exe process.###
+Honeybee drops files with base64-encoded data.###
+Honeybee gathers a list of processes using the tasklist command and then is sent back to the control server.###
+Honeybee uses a batch file to load a DLL into the svchost.exe process.###
+Honeybee uses a dropper called MaoCheng that harvests a stolen digital signature from Adobe Systems.###
+Honeybee gathers computer name and information using the systeminfo command.###
+Honeybee launches a DLL file that gets executed as a service using svchost.exe###

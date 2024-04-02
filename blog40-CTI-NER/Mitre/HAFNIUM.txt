@@ -1,0 +1,22 @@
+HAFNIUM is a likely state-sponsored cyber espionage group operating out of China that has been active since at least January 2021. HAFNIUM primarily targets entities in the US across a number of industry sectors, including infectious disease researchers, law firms, higher education institutions, defense contractors, policy think tanks, and NGOs.###
+HAFNIUM has acquired web services for use in C2 and exfiltration.###
+HAFNIUM has operated from leased virtual private servers (VPS) in the United States.###
+HAFNIUM has used open-source C2 frameworks, including Covenant.###
+HAFNIUM has used 7-Zip and WinRAR to compress stolen files for exfiltration.###
+HAFNIUM has used the Exchange Power Shell module Set-OabVirtualDirectoryPowerShell to export mailbox data.###
+HAFNIUM has created and granted privileges to domain accounts.###
+HAFNIUM has used ASCII encoding for C2 traffic.###
+HAFNIUM has used web shells to export mailbox data.###
+HAFNIUM has exfiltrated data to file sharing sites, including MEGA.###
+HAFNIUM has exploited CVE-2021-26855, CVE-2021-26857, CVE-2021-26858, and CVE-2021-27065  to compromise on-premises versions of Microsoft Exchange Server, enabling access to email accounts and installation of additional malware.###
+HAFNIUM has interacted with Office 365 tenants to gather details regarding target's environments.###
+HAFNIUM has collected e-mail addresses for users they intended to target.###
+HAFNIUM gathered the fully qualified domain names (FQDNs) for targeted Exchange servers in the victim's environment.###
+HAFNIUM has obtained IP addresses for publicly-accessible Exchange servers.###
+HAFNIUM has downloaded malware and tools--including Nishang and PowerCat--onto a compromised host.###
+HAFNIUM has used TCP for C2.###
+HAFNIUM has used procdump to dump the LSASS process memory.###
+HAFNIUM has stolen copies of the Active Directory database (NTDS.DIT).###
+HAFNIUM has deployed multiple web shells on compromised servers including SIMPLESEESHARP, SPORTSBALL, China Chopper, and ASPXSpy.###
+HAFNIUM has used rundll32 to load malicious DLLs.###
+HAFNIUM has used the NT AUTHORITY\SYSTEM account to create files on Exchange servers.###

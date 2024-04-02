@@ -1,0 +1,29 @@
+Leviathan is a cyber espionage group that has been active since at least 2013. The group generally targets defense and government organizations, but has also targeted a range of industries including engineering firms, shipping and transportation, manufacturing, defense, government offices, and research universities in the United States, Western Europe, and along the South China Sea.  ###
+Leviathan has used BITSAdmin to download additional tools.###
+Leviathan has used JavaScript to create a shortcut file in the Startup folder that points to its main backdoor.###
+Leviathan has used JavaScript to create a shortcut file in the Startup folder that points to its main backdoor.###
+Leviathan uses a backdoor known as BADFLICK that is is capable of generating a reverse shell, and has used multiple types of scripting for execution, including JavaScript and JavaScript Scriptlets in XML..###
+Leviathan has used VBScript.###
+Leviathan has used PowerShell for execution.###
+Leviathan has used C:\Windows\Debug and C:\Perflogs as staging directories.###
+Leviathan has used a DLL known as SeDll to decrypt and execute other JavaScript backdoors.###
+Leviathan has used WMI for persistence.###
+Leviathan has used an uploader known as LUNCHMONEY that can exfiltrate files to Dropbox.###
+Leviathan has exploited multiple Microsoft Office and .NET vulnerabilities for execution, including CVE-2017-0199, CVE-2017-8759, and CVE-2017-11882.###
+Leviathan has downloaded additional scripts and files from adversary-controlled servers.###
+Leviathan has obfuscated code using base64 and gzip compression.###
+Leviathan has inserted garbage characters into code, presumably to avoid anti-virus detection.###
+Leviathan has used publicly available tools to dump password hashes, including HOMEFRY. ###
+Leviathan has used publicly available tools to dump password hashes, including ProcDump and WCE. ###
+Leviathan has sent spearphishing emails with malicious attachments, including .rtf, .doc, and .xls files.###
+Leviathan has sent spearphishing emails with links, often using a fraudulent lookalike domain and stolen branding.###
+Leviathan used ssh for internal reconnaissance.###
+Leviathan has targeted RDP credentials and used it to move through the victim environment.###
+Leviathan relies on web shells for an initial foothold as well as persistence into the victim's systems. ###
+Leviathan has used regsvr32 for execution.###
+Leviathan has used stolen code signing certificates to sign malware.###
+Leviathan has sent spearphishing attachments attempting to get a user to click.###
+Leviathan has sent spearphishing email links attempting to get a user to click.###
+Leviathan has used valid, compromised email accounts for defense evasion, including to send malicious emails to other victim organizations.###
+Leviathan has received C2 instructions from user profiles created on legitimate websites such as Github and TechNet.###
+Leviathan has used WMI for execution.###

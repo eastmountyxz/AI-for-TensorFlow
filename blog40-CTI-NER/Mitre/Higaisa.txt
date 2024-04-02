@@ -1,0 +1,27 @@
+Higaisa is a threat group suspected to have South Korean origins. Higaisa has targeted government, public, and trade organizations in North Korea; however, they have also carried out attacks in China, Japan, Russia, Poland, and other nations. Higaisa was first disclosed in early 2019 but is assessed to have operated as early as 2009.###
+Higaisa used HTTP and HTTPS to send data back to its C2 server.###
+Higaisa added a spoofed binary to the start-up folder for persistence.###
+Higaisa used JavaScript to execute additional files.###
+Higaisa used cmd.exe for execution.###
+Higaisa has used VBScript code on the victim's machine.###
+Higaisa used a FakeTLS session for C2 communications.###
+Higaisa used certutil to decode Base64 binaries at runtime and a 16-byte XOR key to decrypt data.###
+Higaisa used AES-128 to encrypt C2 traffic.###
+Higaisa exfiltrated data over its C2 channel.###
+Higaisa has exploited CVE-2018-0798 for execution.###
+Higaisa used a payload that creates a hidden window.###
+Higaisa’s JavaScript file used a legitimate Microsoft Office 2007 package to side-load the OINFO12.OCX dynamic link library.###
+Higaisa named a shellcode loader binary svchast.exe to spoof the legitimate svchost.exe.###
+Higaisa has called various native OS APIs.###
+Higaisa used Base64 encoded compressed payloads.###
+Higaisa performed padding with null bytes before calculating its hash.###
+Higaisa has sent spearphishing emails containing malicious attachments.###
+Higaisa’s shellcode attempted to find the process ID of the current process.###
+Higaisa discovered system proxy settings and used them if available.###
+Higaisa dropped and added officeupdate.exe to scheduled tasks.###
+Higaisa sent the victim computer identifier in a User-Agent string back to the C2 server every 10 minutes.###
+Higaisa collected the system volume serial number, GUID, and computer name.###
+Higaisa used ipconfig to gather network configuration information.###
+Higaisa used a function to gather the current time.###
+Higaisa used malicious e-mail attachments to lure victims into executing LNK files.###
+Higaisa used an XSL file to run VBScript code.###

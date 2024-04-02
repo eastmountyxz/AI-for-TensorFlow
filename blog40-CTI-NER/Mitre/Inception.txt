@@ -1,0 +1,22 @@
+Inception is a cyber espionage group active since at least 2014. The group has targeted multiple industries and governmental entities primarily in Russia, but has also been active in the United States and throughout Europe, Asia, Africa, and the Middle East.###
+Inception has used HTTP, HTTPS, and WebDav in network communications.###
+Inception has maintained persistence by modifying Registry run key value  HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run\.###
+Inception has used VBScript to execute malicious commands and payloads.###
+Inception has used PowerShell to execute malicious commands and payloads.###
+Inception used a browser plugin to steal passwords and sessions from Internet Explorer, Chrome, Opera, Firefox, Torch, and Yandex.###
+Inception used a file hunting plugin to collect .txt, .pdf, .xls or .doc files from the infected host.###
+Inception has encrypted network communications with AES.###
+Inception has exploited CVE-2012-0158, CVE-2014-1761, CVE-2017-11882 and CVE-2018-0802 for execution.###
+Inception used a file listing plugin to collect information about file and directories both on local and remote drives.###
+Inception has encrypted malware payloads dropped on victim machines with AES and RC4 encryption.###
+Inception has used specific malware modules to gather domain membership.###
+Inception has used weaponized documents attached to spearphishing emails for reconnaissance and initial compromise.###
+Inception has used a reconnaissance module to identify active processes and other associated loaded modules.###
+Inception used chains of compromised routers to proxy C2 communications between them and cloud service providers.###
+Inception has ensured persistence at system boot by setting the value regsvr32 %path%\ctfmonrn.dll /s.###
+Inception has used malicious HTA files to drop and execute malware.###
+Inception has enumerated installed software on compromised systems.###
+Inception has used a reconnaissance module to gather information about the operating system and hardware on the infected host.###
+Inception has used decoy documents to load malicious remote payloads via HTTP.###
+Inception lured victims into clicking malicious files for machine reconnaissance and to execute malware.###
+Inception has incorporated at least five different cloud service providers into their C2 infrastructure including CloudMe.###

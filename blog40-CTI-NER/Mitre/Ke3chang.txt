@@ -1,0 +1,32 @@
+Ke3chang is a threat group attributed to actors operating out of China. Ke3chang has targeted several industries, including oil, government, military, and more.   ###
+Ke3chang performs account discovery using commands such as net localgroup administrators and net group "REDACTED" /domain on specific permissions groups.###
+Ke3chang performs account discovery using commands such as net localgroup administrators and net group "REDACTED" /domain on specific permissions groups.###
+Ke3chang malware RoyalCli and BS2005 have communicated over HTTP with the C2 server through Internet Explorer (IE) by using the COM interface IWebBrowser2.###
+Ke3chang malware RoyalDNS has used DNS for C2.###
+The Ke3chang group has been known to compress data before exfiltration.###
+Ke3chang is known to use RAR with passwords to encrypt data prior to exfiltration.###
+Several Ke3chang backdoors achieved persistence by adding a Run key.###
+Malware used by Ke3chang can run commands on the command-line interface.###
+Ke3chang has used batch scripts in its malware to install persistence mechanisms.###
+Ke3chang backdoor RoyalDNS established persistence through adding a service called Nwsapagent.###
+Ke3chang used a SharePoint enumeration and data dumping tool known as spwebmember.###
+Ke3chang gathered information and files from local directories for exfiltration.###
+Ke3chang used a .NET tool to dump data from Microsoft Exchange mailboxes.###
+Ke3chang transferred compressed and encrypted RAR files containing exfiltration through the established backdoor command and control channel during operations.###
+Ke3chang regained access after eviction via the corporate VPN solution with a stolen VPN certificate, which they had extracted from a compromised host.###
+Ke3chang uses command-line interaction to search files and directories.###
+Ke3chang has used keyloggers.###
+Ke3chang has used the right-to-left override character in spearphishing attachment names to trick targets into executing .scr and .exe files.###
+Ke3chang has dumped credentials, including by using Mimikatz.###
+Ke3chang has dumped credentials, including by using gsecdump.###
+Ke3chang has dumped credentials, including by using gsecdump.###
+Ke3chang performs discovery of permission groups net group /domain.###
+Ke3chang performs process discovery using tasklist commands.###
+Ke3chang actors have been known to copy files to the network shares of other computers to move laterally.###
+Ke3chang has used network scanning and enumeration tools, including Ping.###
+Ke3chang has used Mimikatz to generate Kerberos golden tickets.###
+Ke3chang performs operating system information discovery using systeminfo.###
+Ke3chang performs local network configuration discovery using ipconfig.###
+Ke3chang performs local network connection discovery using netstat.###
+Ke3chang performs service discovery using net start commands.###
+Ke3chang has used a tool known as RemoteExec (similar to PsExec) to remotely execute batch scripts and binaries.###

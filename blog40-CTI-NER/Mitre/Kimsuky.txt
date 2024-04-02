@@ -1,0 +1,45 @@
+Kimsuky is a North Korean-based threat group that has been active since at least September 2013. The group initially focused on targeting Korean think tanks and DPRK/nuclear-related targets, expanding recently to the United States, Russia, and Europe. The group was attributed as the actor behind the Korea Hydro & Nuclear Power Co. compromise.###
+Kimsuky has registered domains to spoof targeted organizations and trusted third parties.###
+Kimsuky has used FTP to download additional malware to the target machine.###
+Kimsuky has used e-mail to send exfiltrated data to C2 servers.###
+Kimsuky has used RC4 encryption before exfil.###
+Kimsuky has placed scripts in the startup folder for persistence.###
+Kimsuky has used Google Chrome browser extensions to infect victims and to steal passwords and cookies.###
+Kimsuky has executed a variety of PowerShell scripts.###
+Kimsuky has used Visual Basic to download malicious payloads.###
+Kimsuky has used JScript for logging and downloading additional tools.###
+Kimsuky has used a Mac OS Python implant to gather data.###
+Kimsuky has compromised web portal email accounts to send spearphishing e-mails.###
+Kimsuky has created new services for persistence.###
+Kimsuky has used browser extensions including Google Chrome to steal passwords and cookies from browsers.###
+Kimsuky has collected Office, PDF, and HWP documents from its victims.###
+Kimsuky has staged collected data files under C:\Program Files\Common Files\System\Ole DB\.###
+Kimsuky created and used a mailing toolkit to use in spearphishing attacks.###
+Kimsuky has set auto-forward rules on victim's e-mail accounts.###
+Kimsuky has a HWP document stealer module which changes the default program association in the registry to open HWP documents.###
+Kimsuky has exfiltrated data over its email C2 channel.###
+Kimsuky has used RDP to establish persistence.###
+Kimsuky has the ability to enumerate all the drives on an infected system.###
+Kimsuky has been observed turning off Windows Security Center.###
+Kimsuky has been observed disabling the system firewall.###
+Kimsuky has deleted the exfiltrated data on disk after transmission.###
+Kimsuky has manipulated timestamps for creation or compilation dates to defeat anti-forensics.###
+Kimsuky has used scripts to download additional tools from compromised domains to victim systems.###
+Kimsuky has used a PowerShell-based keylogger.###
+Kimsuky has used modified versions of PHProxy to examine web traffic between the victim and the accessed website.###
+Kimsuky has disguised services to appear as benign software or related to operating system functions.###
+Kimsuky has modified Registry settings for default file associations to enable the opening of malicious documents.###
+Kimsuky has used the Nirsoft SniffPass network sniffer to obtain passwords sent over non-secure protocols.###
+Kimsuky has obfuscated binary strings including the use of XOR encryption and Base64 encoding.###
+Kimsuky has used ProcDump to dump credentials.###
+Kimsuky has used emails containing Word, Excel and/or HWP (Hangul Word Processor) documents in their spearphishing campaigns.###
+Kimsuky has used an email containing a link to a document that contained malicious macros.###
+Kimsuky has used links in e-mail to steal account information.###
+Kimsuky has used Win7Elevate to inject malicious code into explorer.exe.###
+Kimsuky has used a modified TeamViewer client as a command and control channel.###
+Kimsuky has used modified versions of open source PHP web shells to maintain access, often adding "Dinosaur" references within the code.###
+Kimsuky has used mshta.exe to run malicious scripts on the system.###
+Kimsuky has signed files with the name EGIS CO,. Ltd..###
+Kimsuky has gathered information about the infected computer.###
+Kimsuky has used pass the hash for authentication to remote access software used in C2.###
+Kimsuky has used attempted to lure victims into opening malicious e-mail attachments.###

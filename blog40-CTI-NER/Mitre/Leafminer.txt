@@ -1,0 +1,17 @@
+Leafminer is an Iranian threat group that has targeted government organizations and business entities in the Middle East since at least early 2017. ###
+Leafminer used a tool called Total SMB BruteForcer to perform internal password spraying.###
+Leafminer infected victims using JavaScript code.###
+Leafminer used a tool called Imecab to set up a persistent remote access account on the victim machine.###
+Leafminer used several tools for retrieving login and password information, including LaZagne.###
+Leafminer used several tools for retrieving login and password information, including LaZagne.###
+Leafminer has infected victims using watering holes.###
+Leafminer used a tool called MailSniper to search through the Exchange server mailboxes for keywords.###
+Leafminer used a tool called MailSniper to search for files on the desktop and another utility called Sobolsoft to extract attachments from EML files.###
+Leafminer scanned network services to search for vulnerabilities in the victim system.###
+Leafminer obfuscated scripts that were used on victim machines.###
+Leafminer used several tools for retrieving login and password information, including LaZagne and Mimikatz.###
+Leafminer used several tools for retrieving login and password information, including LaZagne.###
+Leafminer used several tools for retrieving login and password information, including LaZagne.###
+Leafminer has used Process Doppelgänging to evade security software while deploying tools on compromised systems.###
+Leafminer used Microsoft’s Sysinternals tools to gather detailed information about remote systems.###
+Leafminer used several tools for retrieving login and password information, including LaZagne.###
