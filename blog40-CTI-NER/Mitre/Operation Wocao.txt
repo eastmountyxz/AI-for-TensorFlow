@@ -1,0 +1,61 @@
+Operation Wocao described activities carried out by a China-based cyber espionage adversary. Operation Wocao targeted entities within the government, managed service providers, energy, health care, and technology sectors across several countries, including China, France, Germany, the United Kingdom, and the United States. Operation Wocao used similar TTPs and tools to APT20, suggesting a possible overlap.###
+Operation Wocao has used the net command to retrieve information about domain accounts.###
+Operation Wocao has archived collected files with WinRAR, prior to exfiltration.###
+Operation Wocao has used a script to collect information about the infected system.###
+Operation Wocao has collected clipboard data in plaintext.###
+Operation Wocao has used PowerShell on compromised systems.###
+Operation Wocao has spawned a new cmd.exe process to execute commands.###
+Operation Wocao has used a VBScript to conduct reconnaissance on targeted systems.###
+Operation Wocao's backdoors have been written in Python and compiled with py2exe.###
+Operation Wocao has accessed and collected credentials from password managers.###
+Operation Wocao has exfiltrated files and directories of interest from the targeted system.###
+Operation Wocao has encrypted IP addresses used for "Agent" proxy hops with RC4.###
+Operation Wocao has staged archived files in a temporary directory prior to exfiltration.###
+Operation Wocao's proxy implementation "Agent" can upgrade the socket in use to a TLS socket.###
+Operation Wocao has used the Xserver backdoor to exfiltrate data.###
+Operation Wocao has gained initial access via vulnerable webservers.###
+Operation Wocao has used stolen credentials to connect to the victim's network via VPN.###
+Operation Wocao has gathered a recursive directory listing to find files and directories of interest.###
+Operation Wocao has used PowerShell to add and delete rules in the Windows firewall.###
+Operation Wocao has deleted Windows Event Logs to hinder forensic investigation.###
+Operation Wocao has deleted logs and executable files used during an intrusion.###
+Operation Wocao can download additional files to the infected system.###
+Operation Wocao has obtained the password for the victim's password manager via a custom keylogger.###
+Operation Wocao has used SMB to copy files to and from target systems.###
+Operation Wocao has enabled Wdigest by changing the registry value from 0 to 1.###
+Operation Wocao has used the CreateProcessA and ShellExecute API function to launch commands after being injected into a selected process.###
+Operation Wocao has scanned for open ports and used nbtscan to find NETBIOS nameservers.###
+Operation Wocao has discovered network disks mounted to the system using netstat.###
+Operation Wocao has used a custom protocol for command and control.###
+Operation Wocao has executed PowerShell commands which were encoded or compressed using Base64, zlib, and XOR.###
+Operation Wocao has edited variable names within the Impacket suite to avoid automated detection.###
+Operation Wocao has used Mimikatz's DCSync to dump credentials from the memory of the targeted system.###
+Operation Wocao has used ProcDump to dump credentials from memory.###
+Operation Wocao has discovered removable disks attached to a system.###
+Operation Wocao has used the command net localgroup administrators to list all administrators part of a local group.###
+Operation Wocao has collected a list of running processes on the infected system.###
+Operation Wocao has injected code into a selected process, which in turn launches a command as a child process of the original.###
+Operation Wocao has used a custom proxy tool called "Agent" which has support for multiple hops.###
+Operation Wocao can proxy traffic through multiple infected systems.###
+Operation Wocao has executed commands through the installed web shell via Tor exit nodes.###
+Operation Wocao has queried the registry to detect recent PuTTY sessions.###
+Operation Wocao has used Impacket's smbexec.py as well as accessing the C$ and IPC$ shares to move laterally.###
+Operation Wocao can use the ping command to discover remote systems.###
+Operation Wocao has used scheduled tasks to execute malicious PowerShell code on remote systems.###
+Operation Wocao has used their own web shells, as well as those previously placed on target systems by other threat actors, for reconnaissance and lateral movement.###
+Operation Wocao has collected a list of installed software on the infected system.###
+Operation Wocao has used scripts to detect security software.###
+Operation Wocao has used PowerSploit's Invoke-Kerberoast module to request encrypted service tickets and bruteforce the passwords of Windows service accounts offline.###
+Operation Wocao has discovered the local disks attached to the system and their hardware information including manufacturer and model, as well as the OS versions of systems connected to a targeted network.###
+Operation Wocao has discovered the local network configuration with ipconfig.###
+Operation Wocao has collected a list of open connections on the infected system using netstat and checks whether it has an internet connection.###
+Operation Wocao has enumerated sessions and users on a remote host, and identified privileged users logged into a targeted system.###
+Operation Wocao has used the tasklist command to search for one of its backdoors.###
+Operation Wocao has created services on remote systems for execution purposes.###
+Operation Wocao has used the time command to retrieve the current time of a compromised system.###
+Operation Wocao has used a custom collection method to intercept two-factor authentication soft tokens.###
+Operation Wocao has used Mimikatz to dump certificates and private keys from the Windows certificate store.###
+Operation Wocao has used valid VPN credentials to gain initial access.###
+Operation Wocao has used local account credentials found during the intrusion for lateral movement and privilege escalation.###
+Operation Wocao has used domain credentials, including domain admin, for lateral movement and privilege escalation.###
+Operation Wocao has used WMI to execute commands.###

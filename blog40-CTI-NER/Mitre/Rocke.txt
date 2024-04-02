@@ -1,0 +1,37 @@
+Rocke is an alleged Chinese-speaking adversary whose primary objective appeared to be cryptojacking, or stealing victim system resources for the purposes of mining cryptocurrency. The name Rocke comes from the email address "rocke@live.cn" used to create the wallet which held collected cryptocurrency. Researchers have detected overlaps between Rocke and the Iron Cybercrime Group, though this attribution has not been confirmed.###
+Rocke issued wget requests from infected systems to the C2.###
+Rocke has executed wget and curl commands to Pastebin over the HTTPS protocol.###
+Rocke's miner has created UPX-packed files in the Windows Start Menu Folder.###
+Rocke has installed an "init.d" startup script to maintain persistence.###
+Rocke used shell scripts to run commands which would obtain persistence and execute the cryptocurrency mining malware.###
+Rocke has used Python-based malware to install and spread their coinminer.###
+Rocke has installed a systemd service script to maintain persistence.###
+Rocke has extracted tar.gz files after downloading them from a C2 server.###
+Rocke exploited Apache Struts, Oracle WebLogic (CVE-2017-10271), and Adobe ColdFusion (CVE-2017-3066) vulnerabilities to deliver malware.###
+Rocke has changed file permissions of files so they could not be modified.###
+Rocke downloaded a file "libprocesshider", which could hide files on the target system.###
+Rocke has modified /etc/ld.so.preload to hook libc functions in order to hide the installed dropper and mining software in process lists.###
+Rocke used scripts which detected and uninstalled antivirus software.###
+Rocke used scripts which killed processes and added firewall rules to block traffic related to other cryptominers.###
+Rocke has changed the time stamp of certain files.###
+Rocke has deleted files on infected machines.###
+Rocke has cleared log files within the /var/log/ folder.###
+Rocke used malware to download additional malicious files to the target system.###
+Rocke has used shell scripts which download mining executables and saves them with the filename "java".###
+Rocke conducted scanning for exposed TCP port 7001 as well as SSH and Redis servers.###
+Rocke's miner connects to a C2 server using port 51640.###
+Rocke has modified UPX headers after packing files to break unpackers.###
+Rocke's miner has created UPX-packed files in the Windows Start Menu Folder.###
+Rocke has compiled malware, delivered to victims as .c files, with the GNU Compiler Collection (GCC).###
+Rocke can detect a running process's PID on the infected machine.###
+Rocke's miner, "TermsHost.exe", evaded defenses by injecting itself into Windows processes, including Notepad.exe.###
+Rocke has spread its coinminer via SSH.###
+Rocke has looked for IP addresses in the known_hosts file on the infected system and attempted to SSH into them.###
+Rocke has distributed cryptomining malware.###
+Rocke has modified /etc/ld.so.preload to hook libc functions in order to hide the installed dropper and mining software in process lists.###
+Rocke installed a cron job that downloaded and executed files from the C2.###
+Rocke used scripts which detected and uninstalled antivirus software.###
+Rocke has used uname -m to collect the name and information about the infected system's kernel.###
+Rocke has used SSH private keys on the infected machine to spread its coinminer throughout a network.###
+Rocke has used Pastebin, Gitee, and GitLab for Command and Control.###
+Rocke has used Pastebin to check the version of beaconing malware and redirect to another Pastebin hosting updated malware.###

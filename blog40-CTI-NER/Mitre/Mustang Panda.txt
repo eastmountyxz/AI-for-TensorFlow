@@ -1,0 +1,40 @@
+Mustang Panda is a China-based cyber espionage threat actor that was first observed in 2017 but may have been conducting operations since at least 2014. Mustang Panda has targeted government entities, nonprofits, religious, and other non-governmental organizations in the U.S., Germany, Mongolia, Myanmar, Pakistan, and Vietnam, among others.###
+Mustang Panda have acquired C2 domains prior to operations.###
+Mustang Panda has communicated with its C2 via HTTP POST requests.###
+Mustang Panda has used RAR to create password-protected archives of collected documents prior to exfiltration.###
+Mustang Panda has encrypted documents with RC4 prior to exfiltration.###
+Mustang Panda used custom batch scripts to collect files automatically from a targeted system.###
+Mustang Panda has created the registry key HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run\AdobelmdyU to maintain persistence.###
+Mustang Panda has embedded VBScript components in LNK files to download additional files and automate collection.###
+Mustang Panda has used malicious PowerShell scripts to enable execution.###
+Mustang Panda has executed HTA files via cmd.exe, and used batch scripts for collection.###
+Mustang Panda has stored collected credential files in c:\windows\temp prior to exfiltration. Mustang Panda has also stored documents for exfiltration in a hidden folder on USB drives.###
+Mustang Panda has encrypted C2 communications with RC4.###
+Mustang Panda's custom ORat tool uses a WMI event consumer to maintain persistence.###
+Mustang Panda has used a customized PlugX variant which could exfiltrate documents from air-gapped networks.###
+Mustang Panda has exploited CVE-2017-0199 in Microsoft Word to execute code.###
+Mustang Panda has searched the entire target system for DOC, DOCX, PPT, PPTX, XLS, XLSX, and PDF files.###
+Mustang Panda's PlugX variant has created a hidden folder on USB drives named RECYCLE.BIN to store malicious executables and collected data.###
+Mustang Panda has used a legitimately signed executable to execute a malicious payload within a DLL file.###
+Mustang Panda will delete their tools and files, and kill processes after their objectives are reached.###
+Mustang Panda has downloaded additional executables following the initial infection stage.###
+Mustang Panda has used an additional filename extension to hide the true file type.###
+Mustang Panda has used 'adobeupdate.dat' as a PlugX loader, and a file named 'OneDrive.exe' to load a Cobalt Strike payload.###
+Mustang Panda has delivered initial payloads hidden using archives and encoding measures.###
+Mustang Panda has used junk code within their DLL files to hinder analysis.###
+Mustang Panda has used vssadmin to create a volume shadow copy and retrieve the NTDS.dit file. Mustang Panda has also used reg save on the SYSTEM file Registry location to help extract the NTDS.dit file.###
+Mustang Panda has delivered spearphishing links to their target.###
+Mustang Panda has used spearphishing attachments to deliver initial access payloads.###
+Mustang Panda has used tasklist /v to determine active process information.###
+Mustang Panda has installed TeamViewer on targeted systems.###
+Mustang Panda has used a customized PlugX variant which could spread through USB connections.###
+Mustang Panda has created a scheduled task to execute additional malicious software, as well as maintain persistence.###
+Mustang Panda has used mshta.exe to launch collection scripts.###
+Mustang Panda has used InstallUtil.exe to execute a malicious Beacon stager.###
+Mustang Panda has searched the victim system for the InstallUtil.exe program and its version.###
+Mustang Panda has gathered system information using systeminfo.###
+Mustang Panda has used ipconfig and arp to determine network configuration information.###
+Mustang Panda has used netstat -ano to determine network connection information.###
+Mustang Panda has sent malicious files requiring direct victim interaction to execute.###
+Mustang Panda has sent malicious links directing victims to a Google Drive folder.###
+Mustang Panda has executed PowerShell scripts via WMI.###

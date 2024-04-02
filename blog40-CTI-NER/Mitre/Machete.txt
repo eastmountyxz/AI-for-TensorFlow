@@ -1,0 +1,12 @@
+Machete is a suspected Spanish-speaking cyber espionage group that has been active since at least 2010. It has primarily focused its operations within Latin America, with a particular emphasis on Venezuela, but also in the US, Europe, Russia, and parts of Asia. Machete generally targets high-profile organizations such as government institutions, intelligence services, and military units, as well as telecommunications and power companies.###
+Machete used multiple compiled Python scripts on the victim’s system. Machete's main backdoor Machete is also written in Python.###
+Machete has used batch files to initiate additional downloads of malicious files.###
+Machete has embedded malicious macros within spearphishing attachments to download additional files.###
+Machete has distributed Machete through a fake blog website.###
+Machete's Machete MSI installer has masqueraded as a legitimate Adobe Acrobat Reader installer.###
+Machete has delivered spearphishing emails that contain a zipped file with malicious contents.###
+Machete has sent phishing emails that contain a link to an external server with ZIP and RAR archives.###
+Machete has created scheduled tasks to maintain Machete's persistence.###
+Machete has used msiexec to install the Machete malware.###
+Machete has has relied on users opening malicious attachments delivered through spearphishing to execute malware.###
+Machete has has relied on users opening malicious links delivered through spearphishing to execute malware.###

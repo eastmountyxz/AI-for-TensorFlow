@@ -1,0 +1,9 @@
+Rancor is a threat group that has led targeted campaigns against the South East Asia region. Rancor uses politically-motivated lures to entice victims to open malicious documents. ###
+Rancor has used HTTP for C2.###
+Rancor has used cmd.exe to execute commmands.###
+Rancor has used VBS scripts as well as embedded macros for execution.###
+Rancor has downloaded additional malware, including by using certutil.###
+Rancor has attached a malicious document to an email to gain initial access.###
+Rancor launched a scheduled task to gain persistence using the schtasks /create /sc command.###
+Rancor has used msiexec to download and execute malicious installer files over HTTP.###
+Rancor attempted to get users to click on an embedded macro within a Microsoft Office Excel document to launch their malware.###

@@ -1,0 +1,53 @@
+OilRig is a suspected Iranian threat group that has targeted Middle Eastern and international victims since at least 2014. The group has targeted a variety of industries, including financial, government, energy, chemical, and telecommunications, and has largely focused its operations within the Middle East. It appears the group carries out supply chain attacks, leveraging the trust relationship between organizations to attack their primary targets. FireEye assesses that the group works on behalf of the Iranian government based on infrastructure details that contain references to Iran, use of Iranian infrastructure, and targeting that aligns with nation-state interests.       This group was previously tracked under two distinct groups, APT34 and OilRig, but was combined due to additional reporting giving higher confidence about the overlap of the activity.###
+OilRig has run net user, net user /domain, net group "domain admins" /domain, and net group "Exchange Trusted Subsystem" /domain to get account listings on a victim.###
+OilRig has run net user, net user /domain, net group "domain admins" /domain, and net group "Exchange Trusted Subsystem" /domain to get account listings on a victim.###
+OilRig has used HTTP for C2.###
+OilRig has used DNS for C2.###
+OilRig has used automated collection.###
+OilRig has used brute force techniques to obtain credentials.###
+OilRig has used various types of scripting for execution.###
+OilRig has used PowerShell scripts for execution, including use of a macro to run a PowerShell command to decode file contents.###
+OilRig has used macros to deliver malware such as QUADAGENT and OopsIE. OilRig has used batch scripts.###
+OilRig has used credential dumping tools such as LaZagne to steal credentials to accounts logged into the compromised system and to Outlook Web Access.###
+OilRig has used credential dumping tools such as LaZagne to steal credentials to accounts logged into the compromised system and to Outlook Web Access. OilRig has also used tool named PICKPOCKET to dump passwords from web browsers.###
+OilRig has used credential dumping tool named VALUEVAULT to steal credentials from the Windows Credential Manager.###
+A OilRig macro has run a PowerShell command to decode file contents. OilRig has also used certutil to decode base64-encoded files on victims.###
+OilRig used the Plink utility and other tools to create tunnels to C2 servers.###
+OilRig has exfiltrated data over FTP separately from its primary C2 channel over DNS.###
+OilRig uses remote services such as VPN, Citrix, or OWA to persist in an environment.###
+OilRig malware ISMAgent falls back to its DNS tunneling mechanism if it is unable to reach the C2 server over HTTP.###
+OilRig has deleted files associated with their payload after execution.###
+OilRig can download remote files onto victims.###
+OilRig has used keylogging tools called KEYPUNCH and LONGWATCH.###
+OilRig has used the publicly available tool SoftPerfect Network Scanner as well as a custom tool called GOLDIRONY to conduct network scanning.###
+OilRig has encrypted and encoded data in its malware, including by using base64.###
+OilRig has tested malware samples to determine AV detection and subsequently modified the samples to ensure AV evasion.###
+OilRig has abused the Outlook Home Page feature for persistence. OilRig has also used CVE-2017-11774 to roll back the initial patch designed to protect against Home Page abuse.###
+OilRig has used credential dumping tools such as Mimikatz to steal credentials to accounts logged into the compromised system and to Outlook Web Access.###
+OilRig has used credential dumping tools such as LaZagne to steal credentials to accounts logged into the compromised system and to Outlook Web Access.###
+OilRig has used credential dumping tools such as LaZagne to steal credentials to accounts logged into the compromised system and to Outlook Web Access.###
+OilRig has used net.exe in a script with net accounts /domain to find the password policy of a domain.###
+OilRig has used net localgroup administrators to find local administrators on compromised systems.###
+OilRig has used net group /domain, net group "domain admins" /domain, and net group "Exchange Trusted Subsystem" /domain to find domain group permission settings.###
+OilRig has sent spearphising emails with malicious attachments to potential victims using compromised and/or spoofed email accounts.###
+OilRig has sent spearphising emails with malicious links to potential victims.###
+OilRig has used LinkedIn to send spearphishing links.###
+OilRig has run tasklist on a victim's machine.###
+OilRig has used the Plink utility and other tools to create tunnels to C2 servers.###
+OilRig has used reg query "HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Default" on a victim to query the Registry.###
+OilRig has used Putty to access compromised systems.###
+OilRig has used Remote Desktop Protocol for lateral movement. The group has also used tunneling tools to tunnel RDP into the environment.###
+OilRig has created scheduled tasks that run a VBScript to execute a payload on victim machines.###
+OilRig has a tool called CANDYKING to capture a screenshot of user's desktop.###
+OilRig has used web shells, often to maintain access to a victim network.###
+OilRig has used a CHM payload to load and execute another malicious file once delivered to a victim.###
+OilRig has run hostname and systeminfo on a victim.###
+OilRig has run ipconfig /all on a victim.###
+OilRig has used netstat -an on a victim to get a listing of network connections.###
+OilRig has run whoami on a victim.###
+OilRig has used sc query on a victim to gather information about services.###
+OilRig has used credential dumping tools such as LaZagne to steal credentials to accounts logged into the compromised system and to Outlook Web Access.###
+OilRig has delivered macro-enabled documents that required targets to click the "enable content" button to execute the payload on the system.###
+OilRig has delivered malicious links to achieve execution on the target system.###
+OilRig has used compromised credentials to access other systems on a victim network.###
+OilRig has used WMI for execution.###

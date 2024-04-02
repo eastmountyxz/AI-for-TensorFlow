@@ -1,0 +1,29 @@
+Magic Hound is an Iranian-sponsored threat group that conducts long term, resource-intensive cyber espionage operations, dating back as early as 2014. The group typically targets U.S. and Middle Eastern military organizations, as well as other government personnel, via complex social engineering campaigns.###
+Magic Hound granted compromised email accounts read access to the email boxes of additional targeted accounts. The group then was able to authenticate to the intended victim's OWA (Outlook Web Access) portal and read hundreds of email communications for information on Middle East organizations.###
+Magic Hound malware has used IRC for C2.###
+Magic Hound malware has used HTTP for C2.###
+Magic Hound has used RAR to stage and compress local folders.###
+Magic Hound malware has used Registry Run keys to establish persistence.###
+Magic Hound malware has used VBS scripts for execution.###
+Magic Hound has used the command-line interface.###
+Magic Hound has used PowerShell for execution and privilege escalation.###
+Magic Hound has compromised personal email accounts through the use of legitimate credentials and gathered additional victim information.###
+Magic Hound has collected .PST archives.###
+Magic Hound has established email accounts using fake personas for spear-phishing operations.###
+Magic Hound malware can list a victim's logical drives and the type, as well the total/free space of the fixed devices. Other malware can list a directory's contents.###
+Magic Hound gathered credentials from two victims that they then attempted to validate across 75 different websites.###
+Magic Hound malware has a function to determine whether the C2 server wishes to execute the newly dropped file in a hidden window.###
+Magic Hound has deleted and overwrote files to cover tracks.###
+Magic Hound has downloaded additional code and files from servers onto victims.###
+Magic Hound malware is capable of keylogging.###
+Magic Hound malware has communicated with its C2 server over TCP port 4443 using HTTP.###
+Magic Hound malware has used base64-encoded commands and files, and has also encrypted embedded strings with AES.###
+Magic Hound stole domain credentials from Microsoft Active Directory Domain Controller and leveraged Mimikatz.###
+Magic Hound sent shortened URL links over email to victims. The URLs linked to Word documents with malicious macros that execute PowerShells scripts to download Pupy.###
+Magic Hound used various social media channels to spearphish victims.###
+Magic Hound malware can list running processes.###
+Magic Hound malware can take a screenshot and upload the file to its C2 server.###
+Magic Hound malware has used a PowerShell command to check the victim system architecture to determine if it is an x64 machine. Other malware has obtained the OS version, UUID, and computer/host name to send to the C2 server.###
+Magic Hound malware gathers the victim's local IP address, MAC address, and external IP address.###
+Magic Hound malware has obtained the victim username and sent it to the C2 server.###
+Magic Hound malware can use a SOAP Web service to communicate with its C2 server.###

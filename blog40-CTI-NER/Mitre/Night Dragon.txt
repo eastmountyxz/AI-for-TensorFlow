@@ -1,0 +1,15 @@
+Night Dragon is a campaign name for activity involving a threat group that has conducted activity originating primarily in China. ###
+Night Dragon has used HTTP for C2.###
+Night Dragon has copied files to company web servers and subsequently downloaded them.###
+Night Dragon used privately developed and customized remote access tools.###
+Night Dragon has performed SQL injection attacks of extranet web servers to gain access.###
+Night Dragon has used compromised VPN accounts to gain access to victim systems.###
+Night Dragon has disabled anti-virus and anti-spyware tools in some instances on the victim’s machines. The actors have also disabled proxy settings to allow direct communication from victims to the Internet.###
+A Night Dragon DLL included an XOR-encoded section.###
+Night Dragon is known to use software packing in its tools.###
+Night Dragon has dumped account hashes with Carbanak and cracked them with Cain & Abel.###
+Night Dragon sent spearphishing emails containing links to compromised websites where malware was downloaded.###
+Night Dragon has used several remote administration tools as persistent infiltration channels.###
+Night Dragon used pass-the-hash tools to gain usernames and passwords.###
+Night Dragon enticed users to click on links in spearphishing emails to download malware.###
+Night Dragon has used compromised VPN accounts to gain access to victim systems.###

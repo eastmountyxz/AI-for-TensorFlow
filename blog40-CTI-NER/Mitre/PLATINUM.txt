@@ -1,0 +1,12 @@
+PLATINUM is an activity group that has targeted victims since at least 2009. The group has focused on targets associated with governments and related organizations in South and Southeast Asia. ###
+PLATINUM has sometimes used drive-by attacks against vulnerable browser plugins.###
+PLATINUM has leveraged a zero-day vulnerability to escalate privileges.###
+PLATINUM has transferred files using the Intel® Active Management Technology (AMT) Serial-over-LAN (SOL) channel.###
+PLATINUM has used several different keyloggers.###
+PLATINUM is capable of using Windows hook interfaces for information gathering such as credential access.###
+PLATINUM has renamed rar.exe to avoid detection.###
+PLATINUM has used the Intel® Active Management Technology (AMT) Serial-over-LAN (SOL) channel for command and control.###
+PLATINUM has used keyloggers that are also capable of dumping credentials.###
+PLATINUM has sent spearphishing emails with attachments to victims as its primary initial access vector.###
+PLATINUM has used various methods of process injection including hot patching.###
+PLATINUM has attempted to get users to open malicious files by sending spearphishing emails with attachments to victims.###

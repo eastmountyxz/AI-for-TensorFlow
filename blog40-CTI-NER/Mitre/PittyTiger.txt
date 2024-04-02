@@ -1,0 +1,2 @@
+PittyTiger is a threat group believed to operate out of China that uses multiple different types of malware to maintain command and control.  ###
+PittyTiger attempts to obtain legitimate credentials during operations.###

@@ -1,0 +1,55 @@
+MuddyWater is an Iranian threat group that has primarily targeted Middle Eastern nations, and has also targeted European and North American nations. The group's victims are mainly in the telecommunications, government (IT services), and oil sectors. Activity from this group was previously linked to FIN7, but the group is believed to be a distinct group possibly motivated by espionage.###
+MuddyWater uses various techniques to bypass UAC.###
+MuddyWater has used cmd.exe net user /domain to enumerate domain users.###
+MuddyWater has used file sharing services including OneHub to distribute tools.###
+MuddyWater has used HTTP for C2 communications.###
+MuddyWater has used the native Windows cabinet creation tool, makecab.exe, likely to compress stolen data to be uploaded.###
+MuddyWater has added Registry Run key KCU\Software\Microsoft\Windows\CurrentVersion\Run\SystemTextEncoding to establish persistence.###
+MuddyWater has used a custom tool for creating reverse shells.###
+MuddyWater has used PowerShell for execution.###
+MuddyWater has used VBScript files to execute its POWERSTATS payload, as well as macros.###
+MuddyWater has used developed tools in Python including Out1.###
+MuddyWater has used JavaScript files to execute its POWERSTATS payload.###
+MuddyWater has performed credential dumping with LaZagne and other tools, including by dumping passwords saved in victim email.###
+MuddyWater has run tools including Browser64 to steal passwords saved in victim web browsers.###
+MuddyWater has used tools to encode C2 communications including Base64 encoding.###
+MuddyWater decoded base64-encoded PowerShell commands using a VBS file.###
+MuddyWater has used C2 infrastructure to receive exfiltrated data.###
+MuddyWater has exploited the Office vulnerability CVE-2017-0199 for execution.###
+MuddyWater has used malware that checked if the ProgramData folder had folders or files with the keywords "Kasper," "Panda," or "ESET."###
+MuddyWater has specifically targeted government agency employees with spearphishing e-mails.###
+MuddyWater can disable the system's local proxy settings.###
+MuddyWater has used malware that can upload additional files to the victim’s machine.###
+MuddyWater has used malware that can execute PowerShell scripts via DDE.###
+MuddyWater has used malware that has the capability to execute malicious code via COM, DCOM, and Outlook.###
+MuddyWater has disguised malicious executables and used filenames and Registry key names associated with Windows Defender.###
+MuddyWater has used one C2 to obtain enumeration scripts and monitor web logs, but a different C2 to send data back.###
+MuddyWater has used Daniel Bohannon’s Invoke-Obfuscation framework and obfuscated PowerShell scripts. The group has also used other obfuscation methods, including Base64 obfuscation of VBScripts and PowerShell commands.###
+MuddyWater has used the .NET csc.exe tool to compile executables from downloaded C# code.###
+MuddyWater has stored obfuscated JavaScript code in an image file named temp.jpg.###
+MuddyWater has made use of  legitimate tools ConnectWise and RemoteUtilities for access to target environments.###
+MuddyWater has used a Word Template, Normal.dotm, for persistence.###
+MuddyWater has performed credential dumping with Mimikatz and procdump64.exe.###
+MuddyWater has performed credential dumping with LaZagne.###
+MuddyWater has performed credential dumping with LaZagne.###
+MuddyWater has compromised third parties and used compromised accounts to send spearphishing emails with targeted attachments to recipients.###
+MuddyWater has sent targeted spearphishing e-mails with malicious links.###
+MuddyWater has used malware to obtain a list of running processes on the system.###
+MuddyWater has controlled POWERSTATS from behind a proxy network to obfuscate the C2 location. MuddyWater has used a series of compromised websites that victims connected to randomly to relay information to command and control (C2).###
+MuddyWater has used a legitimate application, ScreenConnect, to manage systems remotely and move laterally.###
+MuddyWater has used scheduled tasks to establish persistence.###
+MuddyWater has used malware that can capture screenshots of the victim’s machine.###
+MuddyWater has used malware that leveraged rundll32.exe in a Registry Run key to execute a .dll.###
+MuddyWater has used CMSTP.exe and a malicious INF to execute its POWERSTATS payload.###
+MuddyWater has used mshta.exe to execute its POWERSTATS payload and to pass a PowerShell one-liner for execution.###
+MuddyWater has used a PowerShell backdoor to check for Skype connectivity on the target machine.###
+MuddyWater has used malware to check running processes against a hard-coded list of security tools often used by malware researchers.###
+MuddyWater has used malware that can collect the victim’s OS version and machine name.###
+MuddyWater has used malware to collect the victim’s IP address and domain name.###
+MuddyWater has used a PowerShell backdoor to check for Skype connections on the target machine.###
+MuddyWater has used malware that can collect the victim’s username.###
+MuddyWater has run a tool that steals passwords saved in victim email.###
+MuddyWater has attempted to get users to enable macros and launch malicious Microsoft Word documents delivered via spearphishing emails.###
+MuddyWater has distributed URLs in phishing e-mails that link to lure documents.###
+MuddyWater has used web services including OneHub to distribute remote access tools.###
+MuddyWater has used malware that leveraged WMI for execution and querying host information.###

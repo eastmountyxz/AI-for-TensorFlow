@@ -1,0 +1,7 @@
+Naikon is a threat group that has focused on targets around the South China Sea. The group has been attributed to the Chinese People’s Liberation Army’s (PLA) Chengdu Military Region Second Technical Reconnaissance Bureau(Military Unit Cover Designator 78020). While Naikon shares some characteristics with APT30, the two groups do not appear to be exact matches.###
+Naikon has used DLL side-loading to load malicious DLL's into legitimate executables.###
+Naikon has used the RoyalRoad exploit builder to drop a second stage loader, intel.wll, into the Word Startup folder on the compromised host.###
+Naikon has used malicious e-mail attachments to deliver malware.###
+Naikon uses commands such as netsh advfirewall firewall to discover local firewall settings.###
+Naikon uses commands such as netsh interface show to discover network interface settings.###
+Naikon has convinced victims to open malicious attachments to execute malware.###

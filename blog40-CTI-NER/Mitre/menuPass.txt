@@ -1,0 +1,45 @@
+menuPass is a threat group that has been active since at least 2006. Individual members of menuPass are known to have acted in association with the Chinese Ministry of State Security's (MSS) Tianjin State Security Bureau and worked for the Huaying Haitai Science and Technology Development Company.###
+menuPass has targeted healthcare, defense, aerospace, finance, maritime, biotechnology, energy, and government sectors globally, with an emphasis on Japanese organizations. In 2016 and 2017, the group is known to have targeted managed IT service providers (MSPs), manufacturing and mining companies, and a university.###
+menuPass has used the Microsoft administration tool csvde.exe to export Active Directory data.###
+menuPass has registered malicious domains for use in intrusion campaigns.###
+menuPass has encrypted files and information before exfiltration.###
+menuPass has compressed files before exfiltration using TAR and RAR.###
+menuPass has used the Csvde tool to collect Active Directory files and data.###
+menuPass executes commands using a command-line interface and reverse shell. The group has used a modified version of pentesting script wmiexec.vbs to execute commands. menuPass has used malicious macros embedded inside Office documents to execute files.###
+menuPass uses PowerSploit to inject shellcode into PowerShell.###
+menuPass has collected various files from the compromised computers.###
+menuPass has collected data from remote systems by mounting network shares with net use and using Robocopy to transfer data.###
+menuPass stages data prior to exfiltration in multi-part archives, often saved in the Recycle Bin.###
+menuPass has staged data on remote MSP systems or other victim networks prior to exfiltration.###
+menuPass has used certutil in a macro to decode base64-encoded content contained in a dropper document attached to an email. The group has also used certutil -decode to decode files on the victim’s machine when dropping UPPERCUT.###
+menuPass has used dynamic DNS service providers to host malicious domains.###
+menuPass has used tools to exploit the ZeroLogon vulnerability (CVE-2020-1472).###
+menuPass has searched compromised systems for folders of interest including those related to HR, audit and expense, and meeting memos.###
+menuPass has used DLL search order hijacking.###
+menuPass has used DLL side-loading to launch versions of Mimikatz and PwDump6 as well as UPPERCUT.###
+A menuPass macro deletes files after it has decoded and decompressed them.###
+menuPass has installed updates and new malware on victims.###
+menuPass has used key loggers to steal usernames and passwords.###
+menuPass has used esentutl to change file extensions to their true type that were masquerading as .txt files.###
+menuPass has been seen changing malicious files to appear legitimate.###
+menuPass has renamed certutil and moved it to a different location on the system to avoid detection based on use of the tool.###
+menuPass has used native APIs including GetModuleFileName, lstrcat, CreateFile, and ReadFile.###
+menuPass has used tcping.exe, similar to Ping, to probe port status on systems of interest.###
+menuPass has encoded strings in its malware with base64 as well as with a simple, single-byte XOR obfuscation using key 0x40.###
+menuPass has used a modified version of pentesting tools wmiexec.vbs and secretsdump.py to dump credentials.###
+menuPass has used a modified version of pentesting tools wmiexec.vbs and secretsdump.py to dump credentials.###
+menuPass has used Ntdsutil to dump credentials.###
+menuPass has sent malicious Office documents via email as part of spearphishing campaigns as well as executables disguised as documents.###
+menuPass has used process hollowing in iexplore.exe to load the RedLeaves implant.###
+menuPass has used a global service provider's IP as a proxy for C2 traffic from a victim.###
+menuPass has used RDP connections to move across the victim network.###
+menuPass has used Putty Secure Copy Client (PSCP) to transfer data.###
+menuPass uses scripts to enumerate IP ranges on the victim network. menuPass has also issued the command net view /domain to a PlugX implant to gather information about remote systems on the network.###
+menuPass has used a script (atexec.py) to execute a command on a target machine via Task Scheduler.###
+menuPass has used InstallUtil.exe to execute malicious software.###
+menuPass has used several tools to scan for open NetBIOS nameservers and enumerate NetBIOS sessions.###
+menuPass has used net use to conduct connectivity checks to machines.###
+menuPass has used legitimate access granted to Managed Service Providers in order to access victims of interest.###
+menuPass has attempted to get victims to open malicious files such as Windows Shortcuts (.lnk) and/or Microsoft Office documents, sent via email as part of spearphishing campaigns.###
+menuPass has used valid accounts including shared between Managed Service Providers and clients to move between the two environments.###
+menuPass has used a modified version of pentesting script wmiexec.vbs, which logs into a remote machine using WMI.###

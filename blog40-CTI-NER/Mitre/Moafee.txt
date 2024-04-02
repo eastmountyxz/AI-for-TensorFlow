@@ -1,0 +1,2 @@
+Moafee is a threat group that appears to operate from the Guandong Province of China. Due to overlapping TTPs, including similar custom tools, Moafee is thought to have a direct or indirect relationship with the threat group DragonOK. ###
+Moafee has been known to employ binary padding.###

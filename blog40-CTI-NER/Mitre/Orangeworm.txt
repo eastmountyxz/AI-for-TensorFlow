@@ -1,0 +1,3 @@
+Orangeworm is a group that has targeted organizations in the healthcare sector in the United States, Europe, and Asia since at least 2015, likely for the purpose of corporate espionage. ###
+Orangeworm has used HTTP for C2.###
+Orangeworm has copied its backdoor across open network shares, including ADMIN$, C$WINDOWS, D$WINDOWS, and E$WINDOWS.###

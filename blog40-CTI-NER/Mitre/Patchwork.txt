@@ -1,0 +1,39 @@
+Patchwork is a cyberespionage group that was first observed in December 2015. While the group has not been definitively attributed, circumstantial evidence suggests the group may be a pro-Indian or Indian entity. Patchwork has been seen targeting industries related to diplomatic and government agencies. Much of the code used by this group was copied and pasted from online forums. Patchwork was also seen operating spearphishing campaigns targeting U.S. think tank groups in March and April of 2018.    ###
+Patchwork bypassed User Access Control (UAC).###
+Patchwork encrypted the collected files' path with AES and then encoded them with base64.###
+Patchwork developed a file stealer to search C:\ and collect files with certain extensions. Patchwork also executed a script to enumerate all drives, store them as a list, and upload generated files to the C2 server.###
+Patchwork has used BITS jobs to download malicious payloads.###
+Patchwork has added the path of its second-stage malware to the startup folder to achieve persistence. One of its file stealers has also persisted by adding a Registry Run key.###
+Patchwork used PowerSploit to download payloads, run a reverse shell, and execute malware on the victim's machine.###
+Patchwork ran a reverse shell with Meterpreter. Patchwork used JavaScript code and .SCT files on victim machines.###
+Patchwork used Visual Basic Scripts (VBS) on victim machines.###
+Patchwork dumped the login data database from \AppData\Local\Google\Chrome\User Data\Default\Login Data.###
+Patchwork used Base64 to encode C2 traffic.###
+Patchwork collected and exfiltrated files from the infected system.###
+Patchwork copied all targeted files to a directory called index that was eventually uploaded to the C&C server.###
+Patchwork has created self-signed certificates from fictitious and spoofed legitimate software companies that were later used to sign malware.###
+Patchwork has used watering holes to deliver files with exploits to initial victims.###
+Patchwork uses malicious documents to deliver remote execution exploits as part of. The group has previously exploited CVE-2017-8570, CVE-2012-1856, CVE-2014-4114, CVE-2017-0199, CVE-2017-11882, and CVE-2015-1641.###
+A Patchwork payload has searched all fixed drives on the victim for files matching a specified list of extensions.###
+A Patchwork .dll that contains BADNEWS is loaded and executed using DLL side-loading.###
+Patchwork removed certain files and replaced them so they could not be retrieved.###
+Patchwork payloads download additional files from the C2 server.###
+Patchwork leveraged the DDE protocol to deliver their malware.###
+Patchwork installed its payload in the startup programs folder as "Baidu Software Update." The group also adds its second stage payload to the startup programs as "Net Monitor." They have also dropped QuasarRAT binaries as files named microsoft_network.exe and crome.exe.###
+A Patchwork payload deletes Resiliency Registry keys created by Microsoft Office applications in an apparent effort to trick users into thinking there were no issues during application runs.###
+Patchwork has obfuscated a script with Crypto Obfuscator.###
+Patchwork apparently altered NDiskMonitor samples by adding four bytes of random letters in a likely attempt to change the file hashes.###
+Patchwork apparently altered NDiskMonitor samples by adding four bytes of random letters in a likely attempt to change the file hashes.###
+A Patchwork payload was packed with UPX.###
+Patchwork has used spearphishing with an attachment to deliver files with exploits to initial victims.###
+Patchwork has used spearphishing with links to deliver files with exploits to initial victims. The group has also used embedded image tags (known as web bugs) with unique, per-recipient tracking links in their emails for the purpose of identifying which recipients opened messages.###
+A Patchwork payload uses process hollowing to hide the UAC bypass vulnerability exploitation inside svchost.exe.###
+Patchwork attempted to use RDP to move laterally.###
+A Patchwork file stealer can run a TaskScheduler DLL to add persistence.###
+Patchwork scanned the "Program Files" directories for a directory with the string "Total Security" (the installation path of the "360 Total Security" antivirus tool).###
+Patchwork has signed malware with self-signed certificates from fictitious and spoofed legitimate software companies.###
+Patchwork collected the victim computer name, OS version, and architecture type and sent the information to its C2 server. Patchwork also enumerated all available drives on the victim's machine.###
+Patchwork collected the victim username and whether it was running as admin, then sent the information to its C2 server.###
+Patchwork embedded a malicious macro in a Word document and lured the victim to click on an icon to execute the malware.###
+Patchwork has used spearphishing with links to try to get users to click, download and open malicious files.###
+Patchwork hides base64-encoded and encrypted C2 server locations in comments on legitimate websites.###

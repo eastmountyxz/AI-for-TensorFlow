@@ -1,0 +1,17 @@
+Molerats is an Arabic-speaking, politically-motivated threat group that has been operating since 2012. The group's victims have primarily been in the Middle East, Europe, and the United States.###
+Molerats saved malicious files within the AppData and Startup folders to maintain persistence.###
+Molerats used various implants, including those built with VBScript, on target machines.###
+Molerats used various implants, including those built with JS, on target machines.###
+Molerats used PowerShell implants on target machines.###
+Molerats used the public tool BrowserPasswordDump10 to dump passwords saved in browsers on victims.###
+Molerats decompresses ZIP files once on the victim machine.###
+Molerats used executables to download malicious files from different sources.###
+Molerats has delivered compressed executables within ZIP files to victims.###
+Molerats has sent phishing emails with malicious Microsoft Word and PDF attachments.###
+Molerats has sent phishing emails with malicious links included.###
+Molerats actors obtained a list of active processes on the victim and sent them to C2 servers.###
+Molerats has created scheduled tasks to persistently run VBScripts.###
+Molerats has used msiexec.exe to execute an MSI payload.###
+Molerats has used forged Microsoft code-signing certificates on malware.###
+Molerats has sent malicious links via email trick users into opening a RAR archive and running an executable.###
+Molerats has sent malicious files via email that tricked users into clicking Enable Content to run an embedded macro and to download malicious archives.###

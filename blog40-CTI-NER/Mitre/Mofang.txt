@@ -1,0 +1,6 @@
+Mofang is a likely China-based cyber espionage group, named for its frequent practice of imitating a victim's infrastructure. This adversary has been observed since at least May 2012 conducting focused attacks against government and critical infrastructure in Myanmar, as well as several other countries and sectors including military, automobile, and weapons industries.###
+Mofang has compressed the ShimRat executable within malicious email attachments. Mofang has also encrypted payloads before they are downloaded to victims.###
+Mofang delivered spearphishing emails with malicious documents, PDFs, or Excel files attached.###
+Mofang delivered spearphishing emails with malicious links included.###
+Mofang's malicious spearphishing attachments required a user to open the file after receiving.###
+Mofang's spearphishing emails required a user to click the link to connect to a compromised website.###
